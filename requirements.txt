@@ -1,0 +1,11 @@
+pandas
+matplotlib
+seaborn
+plotly
+tensorflow
+numpy
+nltk
+scikit-learn
+vaderSentiment
+gensim
+nbformat
