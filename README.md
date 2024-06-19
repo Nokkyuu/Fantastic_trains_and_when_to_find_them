@@ -1,30 +1,20 @@
-# SavingDB
-Here could be your advertisement, hombre!
+# Overview
 
-# Start
-Create a virtual environment<br>
-```zsh
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-```
-Setting up the `License, gitignore and the requirements.txt`<br>
-Installing all needed packages which you can see in the [requirements](requirements.txt).<br>
+## Folders
+- API: Folder contains scripts for written to handle the different DB APIs
+- data:
+    - fromAPI: contains .csv files created using the DB API
+    - so_me: data from social media messages regarding DB from Kaggle
+    - train_stops: trainstop data from Kaggle
+- EDA: contains notebooks regarding the exploratory data analysis part of the different datasets.
+-XMLAnalysis: folder contains files and scipts for the process to make sense out of the rather complicated output from the Timetable API to single out what we would need from it.
 
-## Task
-Create a new repo using this template.<br>
-Through EDA/statistical analysis above please come up with AT LEAST 3 insights regarding the overall data. One should be geographical.<br>
-In addition also come up with AT LEAST 3 recommendations for your stakeholder.<br>
+
 
 ## Stakeholder
 DB
 
-
-
 ## Hypothesis
-
-
-
 
 ## Notebook EDA 
 

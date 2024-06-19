@@ -11,6 +11,7 @@ From main element ``s``:<br>
 and from subelements ``ar``(arrival) and ``dp`` (departure) <br>
 ``pt`` (planned time)<br>
 ``l`` (name of train)<br>
+``ppth`` (path information of the train)
 
 ## From Timetable changed Output:
 
