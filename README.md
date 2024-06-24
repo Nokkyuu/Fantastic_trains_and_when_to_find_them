@@ -13,7 +13,8 @@ For detailed description of the features available in the datasets please look i
 - EDA: contains notebooks regarding the exploratory data analysis part of the different datasets.
 -XMLAnalysis: folder contains files and scipts for the process to make sense out of the rather complicated output from the Timetable API to single out what we would need from it.
 
-
+## Definition on Delay DB:
+`A train is not on time if the delay is over 5:59 min!`
 
 ## Stakeholder
 DB
