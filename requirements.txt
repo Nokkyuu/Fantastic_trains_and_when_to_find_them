@@ -79,10 +79,6 @@ six==1.16.0
 smart-open==7.0.4
 stack-data==0.6.3
 tenacity==8.4.1
-tensorboard==2.16.2
-tensorboard-data-server==0.7.2
-tensorflow==2.16.1
-tensorflow-io-gcs-filesystem==0.37.0
 termcolor==2.4.0
 threadpoolctl==3.5.0
 tornado==6.4.1
