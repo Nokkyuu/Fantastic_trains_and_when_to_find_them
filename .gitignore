@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+cleaned_hourly_all.csv
 # C extensions
 *.so
 
