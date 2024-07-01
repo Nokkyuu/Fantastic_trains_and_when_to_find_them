@@ -1,7 +1,4 @@
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash import dash, html, dcc, callback, Output, Input
 import pandas as pd
 import plotly.express as px
 
@@ -39,7 +36,7 @@ marks = {hour: f"{hour}:00" for hour in range(24)}
 
 #Plotting the stations with size indicator for the delay -> creating a function
 def create_map(hour):
-    filtered_df = df[(df["Hour_delay"] == hour)]
+    filtered_df = df[(df["Hour_delay"] == hour)&(df["arrival_delay_check"] != "on_time")].groupby("name", as_index=False).mean(numeric_only=True)
     fig = px.scatter_mapbox(filtered_df, 
                             lon='long', lat='lat', 
                             hover_name='name', 
