@@ -19,8 +19,8 @@ df["arrival_plan_date"] = df["arrival_plan"].dt.date
 df.drop(df[df["arrival_delay_m"] < 6].index, inplace=True)
 
 #creating a new column to convert the datetime delay into 24 unique hours to have a slider on our dashboard
-df["Day_delay"] = df["departure_plan"].dt.date
-df["Hour_delay"] = df["departure_plan"].dt.hour
+df["Day_delay"] = df["arrival_plan"].dt.date
+df["Hour_delay"] = df["arrival_plan"].dt.hour
 
 unique_days = df["Day_delay"].unique()
 unique_hours = df["Hour_delay"].unique()
@@ -50,7 +50,8 @@ def create_map(date, hour):
                             size_max=20, 
                             zoom=10,
                             color="category",
-                            size="arrival_delay_m")
+                            size="arrival_delay_m",
+                            color_continuous_scale=px.colors.sequential.Inferno)
 
 # Update layout and setting the map
     fig.update_layout(mapbox_style="carto-positron",
