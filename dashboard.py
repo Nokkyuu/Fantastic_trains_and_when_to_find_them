@@ -43,11 +43,13 @@ for date in df["Day_delay"].unique():
 #Plotting the stations with size indicator for the delay -> creating a function
 def create_map(date, hour):
     filtered_df = df[(df["Hour_delay"] == hour)&(df["Day_delay"] == date)&(df["arrival_delay_check"] != "on_time")].groupby("name", as_index=False).mean(numeric_only=True)
-    fig = px.scatter_mapbox(filtered_df, 
+    fig = px.scatter_mapbox(filtered_df,
+                            title=f"{date} - {int(hour)}:00", 
                             lon='long', lat='lat', 
                             hover_name='name', 
                             size_max=20, 
                             zoom=10,
+                            color="category",
                             size="arrival_delay_m")
 
 # Update layout and setting the map
@@ -76,7 +78,7 @@ app.layout = html.Div(children=[
         min=0,
         max=len(marks) - 1,
         value=0,
-        #marks=marks,
+        marks=None,
         step=1
     ),
 
