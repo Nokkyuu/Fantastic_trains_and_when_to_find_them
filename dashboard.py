@@ -27,16 +27,22 @@ unique_hours = df["Hour_delay"].unique()
 
 #create a dictionary for the slider marks
 #marks = {i: time.strftime('%h:%M') for i, time in enumerate(pd.date_range(df['departure_plan'].min(), df['departure_plan'].max(), freq='h'))}
-marks = {hour: f"{hour}:00" for hour in range(24)}
+marks = {}
+i=0
+for date in df["Day_delay"].unique():
+    for hour in df["Hour_delay"][df["Day_delay"] == date].unique():
+        marks[i] = [date, hour]
+        i += 1
+#marks = {hour: f"{date} - {hour}:00" for hour in range(24)}
 
-
+#print(marks)
 
 # Create a Plotly figure
 #fig = px.line(df, x='Date', y='Value', title='Sample Line Chart')
 
 #Plotting the stations with size indicator for the delay -> creating a function
-def create_map(hour):
-    filtered_df = df[(df["Hour_delay"] == hour)&(df["arrival_delay_check"] != "on_time")].groupby("name", as_index=False).mean(numeric_only=True)
+def create_map(date, hour):
+    filtered_df = df[(df["Hour_delay"] == hour)&(df["Day_delay"] == date)&(df["arrival_delay_check"] != "on_time")].groupby("name", as_index=False).mean(numeric_only=True)
     fig = px.scatter_mapbox(filtered_df, 
                             lon='long', lat='lat', 
                             hover_name='name', 
@@ -70,8 +76,8 @@ app.layout = html.Div(children=[
         min=0,
         max=len(marks) - 1,
         value=0,
-        marks=marks,
-        step=None
+        #marks=marks,
+        step=1
     ),
 
     dcc.Graph(
@@ -85,7 +91,7 @@ app.layout = html.Div(children=[
     [Input('hour-slider', 'value')])
 
 def update_figure(selected_hour):
-    return create_map(selected_hour)
+    return create_map(marks[selected_hour][0], marks[selected_hour][1])
 
 # Run the server
 if __name__ == '__main__':
