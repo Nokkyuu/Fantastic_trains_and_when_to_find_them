@@ -22,7 +22,10 @@ df["arrival_plan_date"] = df["arrival_plan"].dt.date
 df.drop(df[df["arrival_delay_m"] < 6].index, inplace=True)
 
 #creating a new column to convert the datetime delay into 24 unique hours to have a slider on our dashboard
+df["Day_delay"] = df["departure_plan"].dt.date
 df["Hour_delay"] = df["departure_plan"].dt.hour
+
+unique_days = df["Day_delay"].unique()
 unique_hours = df["Hour_delay"].unique()
 
 #create a dictionary for the slider marks
@@ -36,8 +39,12 @@ marks = {hour: f"{hour}:00" for hour in range(24)}
 
 #Plotting the stations with size indicator for the delay -> creating a function
 def create_map(hour):
-    filtered_df = df[df["Hour_delay"] == hour]
-    fig = px.scatter_mapbox(filtered_df, lon='long', lat='lat', hover_name='name', size_max=20, zoom=10,
+    filtered_df = df[(df["Hour_delay"] == hour)]
+    fig = px.scatter_mapbox(filtered_df, 
+                            lon='long', lat='lat', 
+                            hover_name='name', 
+                            size_max=20, 
+                            zoom=10,
                             size="arrival_delay_m")
 
 # Update layout and setting the map
