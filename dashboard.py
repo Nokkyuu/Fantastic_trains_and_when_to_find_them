@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_csv("../data/fromAPI/cleaned_hourly_all.csv")
+df = pd.read_csv("data/fromAPI/cleaned_hourly_all.csv")
 
 #creating time and date features
 date_format = "%Y-%m-%d %H:%M:%S"
@@ -23,11 +23,12 @@ df.drop(df[df["arrival_delay_m"] < 6].index, inplace=True)
 
 #creating a new column to convert the datetime delay into 24 unique hours to have a slider on our dashboard
 df["Hour_delay"] = df["departure_plan"].dt.hour
+unique_hours = df["Hour_delay"].unique()
 
 #create a dictionary for the slider marks
-marks = {i: time.strftime('%H:%M') for i, time in enumerate(pd.date_range(df['departure_plan'].min(), df['departure_plan'].max(), freq='H'))}
+#marks = {i: time.strftime('%h:%M') for i, time in enumerate(pd.date_range(df['departure_plan'].min(), df['departure_plan'].max(), freq='h'))}
+marks = {hour: f"{hour}:00" for hour in range(24)}
 
-#
 
 
 # Create a Plotly figure
@@ -36,7 +37,7 @@ marks = {i: time.strftime('%H:%M') for i, time in enumerate(pd.date_range(df['de
 #Plotting the stations with size indicator for the delay -> creating a function
 def create_map(hour):
     filtered_df = df[df["Hour_delay"] == hour]
-    fig = px.scatter_mapbox(df, lon='long', lat='lat', hover_name='name', size_max=20, zoom=10,
+    fig = px.scatter_mapbox(filtered_df, lon='long', lat='lat', hover_name='name', size_max=20, zoom=10,
                             size="arrival_delay_m")
 
 # Update layout and setting the map
@@ -56,7 +57,7 @@ app.layout = html.Div(children=[
     html.H1(children='Train delay'),
 
     html.Div(children='''
-        An example dashboard.
+        A dashboard to showcase the distribution of train delay.
     '''),
 
     #add Slider
