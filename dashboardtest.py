@@ -26,10 +26,10 @@ df["Hour_delay"] = df["arrival_plan"].dt.hour
 df["DayHour"] = df["Day_delay"].astype(str) + ' ' + df["Hour_delay"].astype(str) + ':00'
 
 # Filter out the data where arrival_delay_check is not "on_time"
-filtered_df = df[df["arrival_delay_check"] != "on_time"]
+#filtered_df = df[df["arrival_delay_check"] != "on_time"]
 
 # Group by necessary columns
-grouped_df = filtered_df.groupby(["DayHour", "name", "long", "lat", "category"], as_index=False).mean(numeric_only=True)
+grouped_df = df.groupby(["DayHour", "name", "long", "lat", "category"], as_index=False).mean(numeric_only=True)
 
 # Create the figure with animation
 fig = px.scatter_mapbox(

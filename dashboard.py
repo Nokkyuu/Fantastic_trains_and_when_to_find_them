@@ -16,7 +16,7 @@ df["arrival_plan_time"] = df["arrival_plan"].dt.time
 df["arrival_plan_date"] = df["arrival_plan"].dt.date
 
 #drop DB defined trains which have no delay up to 6 minutes
-df.drop(df[df["arrival_delay_m"] < 6].index, inplace=True)
+#df.drop(df[df["arrival_delay_m"] < 6].index, inplace=True)
 
 #creating a new column to convert the datetime delay into 24 unique hours to have a slider on our dashboard
 df["Day_delay"] = df["arrival_plan"].dt.date
@@ -42,7 +42,7 @@ for date in df["Day_delay"].unique():
 
 #Plotting the stations with size indicator for the delay -> creating a function
 def create_map(date, hour):
-    filtered_df = df[(df["Hour_delay"] == hour)&(df["Day_delay"] == date)&(df["arrival_delay_check"] != "on_time")].groupby("name", as_index=False).mean(numeric_only=True)
+    filtered_df = df[(df["Hour_delay"] == hour)&(df["Day_delay"] == date)].groupby("name", as_index=False).mean(numeric_only=True)
     fig = px.scatter_mapbox(filtered_df,
                             title=f"{date} - {int(hour)}:00", 
                             lon='long', lat='lat', 
