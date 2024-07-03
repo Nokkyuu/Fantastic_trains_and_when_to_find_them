@@ -3,4 +3,5 @@ checking more ML models: ANN, Gradient Boosting, XGBoost, AdaBoost, kNN
 in the end: relate feature importance to EDA
 Time Series Analysis
 feature ideas: regions (states), distance to the different juctions, 
+feature idea: EVAnr as representative of station, starting station from path, number of stations passed since starting station.
 getting new dataset with störungsgrund ?
