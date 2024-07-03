@@ -22,14 +22,14 @@ df.drop(df[df["arrival_delay_m"] < 6].index, inplace=True)
 df["Day_delay"] = df["arrival_plan"].dt.date
 df["Hour_delay"] = df["arrival_plan"].dt.hour
 
-# Combine Day and Hour into a single string for animation_frame
-df["DayHour"] = df["Day_delay"].astype(str) + ' ' + df["Hour_delay"].astype(str) + ':00'
-df["DayHour"].sort_values(ascending=True)
+# Create a new column with combined date and hour for animation_frame
+df["DayHour"] = df["arrival_plan"].dt.strftime("%Y-%m-%d %H:00")
+
 # Filter out the data where arrival_delay_check is not "on_time"
-#filtered_df = df[df["arrival_delay_check"] != "on_time"]
+filtered_df = df[df["arrival_delay_check"] != "on_time"]
 
 # Group by necessary columns
-grouped_df = df.groupby(["DayHour", "name", "long", "lat", "category"], as_index=False).mean(numeric_only=True)
+grouped_df = filtered_df.groupby(["DayHour", "name", "long", "lat", "category"], as_index=False).mean(numeric_only=True)
 
 # Create the figure with animation
 #fig = px.scatter_mapbox(
@@ -45,12 +45,18 @@ grouped_df = df.groupby(["DayHour", "name", "long", "lat", "category"], as_index
 #    color_continuous_scale=px.colors.sequential.Inferno
 #)
 
+#defining min and max for the z value in the density_mapbox
+zmin = grouped_df["arrival_delay_m"].min()
+zmax = 50
+
+
 #Heatmatp
 fig = px.density_mapbox(grouped_df,
                         lat='lat', lon='long', z='arrival_delay_m',
                         radius=10,
                         center=dict(lat=0, lon=180), zoom=10,
-                        animation_frame="DayHour"
+                        animation_frame="DayHour",
+                        range_color=[zmin, zmax]
 )
 
 # Update layout and setting the map
@@ -61,6 +67,8 @@ fig.update_layout(
     width=700,
     height=800
 )
+
+
 
 # Initialize the Dash app
 app = Dash(__name__)
