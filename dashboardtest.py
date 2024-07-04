@@ -46,7 +46,7 @@ grouped_df = filtered_df.groupby(["DayHour", "name", "long", "lat", "category"],
 #)
 
 #defining min and max for the z value in the density_mapbox
-zmin = grouped_df["arrival_delay_m"].min()
+zmin = 0
 zmax = 50
 
 
