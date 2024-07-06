@@ -163,3 +163,4 @@ cython_debug/
 #.idea/
 notes.md
 data/ML/
+data/fromAPI/cleaned_hourly_all2.csv
