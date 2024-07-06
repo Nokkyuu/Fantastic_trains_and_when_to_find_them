@@ -1,0 +1,2001 @@
+Aachen Hbf connection skipped
+Aachen-Rothe Erde connection skipped
+Aachen West connection skipped
+Aalen Hbf connection skipped
+Achern connection skipped
+Achim connection skipped
+Ahaus connection skipped
+Ahlen (Westf) connection skipped
+Ahlten (Han) connection skipped
+Ahrensburg connection skipped
+Ahrensfelde connection skipped
+Aichach connection skipped
+Albrechtshof connection skipped
+Albstadt-Ebingen connection skipped
+Alexanderplatz connection skipped
+Alfeld (Leine) connection skipped
+Allensbach connection skipped
+Alsfeld (Oberhess) connection skipped
+Alsheim connection skipped
+Altbach connection skipped
+Alte Wöhr connection skipped
+Altena (Westf) connection skipped
+Altenbeken connection skipped
+Kurort Altenberg (Erzgeb) connection skipped
+Altenburg connection skipped
+Lennestadt-Altenhundem connection skipped
+Altglienicke connection skipped
+Althegnenberg connection skipped
+Alzey connection skipped
+Amberg connection skipped
+Ampfing connection skipped
+Andernach connection skipped
+Anderten-Misburg connection skipped
+Angermünde connection skipped
+Anklam connection skipped
+Annweiler am Trifels connection skipped
+Anrath connection skipped
+Ansbach connection skipped
+Apolda connection skipped
+Nottuln-Appelhülsen connection skipped
+Appenweier connection skipped
+Armsheim connection skipped
+Arnsberg (Westf) connection skipped
+Arnsdorf (b Dresden) connection skipped
+Arnstadt Hbf connection skipped
+Aschaffenburg Hbf connection skipped
+Ascheberg (Holst) connection skipped
+Aschersleben Pbf connection skipped
+Ashausen connection skipped
+Asperg connection skipped
+Aßling (Oberbay) connection skipped
+Assmannshausen connection skipped
+Attilastraße connection skipped
+Au (Sieg) connection skipped
+Auggen connection skipped
+Augsburg Haunstetterstraße connection skipped
+Augsburg Hbf connection skipped
+Augsburg-Hochzoll connection skipped
+Augsburg-Oberhausen connection skipped
+Augustfehn connection skipped
+Aulendorf connection skipped
+Aumühle connection skipped
+Hückelhoven-Baal connection skipped
+Babelsberg connection skipped
+Babenhausen (Hess) connection skipped
+Bacharach connection skipped
+Backnang connection skipped
+Bad Aibling connection skipped
+Bad Bentheim connection skipped
+Bad Bevensen connection skipped
+Bad Breisig connection skipped
+Bad Camberg connection skipped
+Bad Doberan connection skipped
+Bad Dürkheim connection skipped
+Bad Ems connection skipped
+Bad Endorf (Oberbay) connection skipped
+Bad Friedrichshall Hbf connection skipped
+Bad Harzburg connection skipped
+Bad Hersfeld connection skipped
+Bad Homburg connection skipped
+Bad Honnef (Rhein) connection skipped
+Bad Hönningen connection skipped
+Bad Kissingen connection skipped
+Bad Kleinen connection skipped
+Bad Kösen connection skipped
+Bad Kreuznach connection skipped
+Bad Krozingen connection skipped
+Bad Langensalza connection skipped
+Bad Lausick connection skipped
+Bad Münder (Deister) connection skipped
+Bad Münster am Stein connection skipped
+Bad Nauheim connection skipped
+Bad Nenndorf connection skipped
+Bad Neuenahr connection skipped
+Bad Neustadt (Saale) connection skipped
+Bad Oeynhausen connection skipped
+Bad Oldesloe connection skipped
+Bad Pyrmont connection skipped
+Bad Rappenau connection skipped
+Bad Reichenhall connection skipped
+Bad Säckingen connection skipped
+Boppard-Bad Salzig connection skipped
+Bad Schandau connection skipped
+Bad Schönborn Süd connection skipped
+Bad Schussenried connection skipped
+Bad Schwartau connection skipped
+Bad Soden (Taunus) connection skipped
+Bad Soden-Salmünster connection skipped
+Bad Vilbel connection skipped
+Bad Vilbel Süd connection skipped
+Bad Zwischenahn connection skipped
+Baden (Kr Verden) connection skipped
+Baden-Baden connection skipped
+Bahrenfeld connection skipped
+Baiersdorf connection skipped
+Baldham connection skipped
+Balingen (Württ) connection skipped
+Bamberg connection skipped
+Bantorf connection skipped
+Bargteheide connection skipped
+Barmbek connection skipped
+Barnstorf (Han) connection skipped
+Barsinghausen connection skipped
+Bassum connection skipped
+Baumschulenweg connection skipped
+Bautzen connection skipped
+Leverkusen Chempark connection skipped
+Bayreuth Hbf connection skipped
+Bebra connection skipped
+Bellevue connection skipped
+Bad Belzig connection skipped
+Bennemühlen connection skipped
+Bennigsen connection skipped
+Benningen (Neckar) connection skipped
+Bensheim connection skipped
+Bensheim-Auerbach connection skipped
+Beratzhausen connection skipped
+Berchtesgaden Hbf connection skipped
+Bergen auf Rügen connection skipped
+Bergfelde (b Berlin) connection skipped
+Bergisch Gladbach connection skipped
+Berlin Anhalter Bahnhof connection skipped
+Berlin Frankfurter Allee connection skipped
+Berlin-Friedrichstraße connection skipped
+Berlin Gesundbrunnen connection skipped
+Greifswalder Straße connection skipped
+Berlin Ostbahnhof connection skipped
+Berlin-Nordbahnhof connection skipped
+Berlin Zoologischer Garten connection skipped
+Berlin-Adlershof connection skipped
+Berlin-Blankenburg connection skipped
+Berlin-Buch connection skipped
+Berlin-Charlottenburg connection skipped
+Berlin-Friedrichshagen connection skipped
+Berlin-Frohnau connection skipped
+Berlin-Grünau connection skipped
+Berlin-Grunewald connection skipped
+Berlin-Halensee connection skipped
+Berlin-Hermsdorf connection skipped
+Berlin-Hohenschönhausen connection skipped
+Berlin-Karlshorst connection skipped
+Berlin-Karow connection skipped
+Berlin-Kaulsdorf connection skipped
+Berlin-Köpenick connection skipped
+Berlin-Lichtenberg connection skipped
+Berlin-Lichterfelde West connection skipped
+Berlin-Mahlsdorf connection skipped
+Berlin-Marienfelde connection skipped
+Berlin-Marzahn connection skipped
+Berlin-Neukölln connection skipped
+Berlin-Pankow connection skipped
+Berlin-Rummelsburg connection skipped
+Berlin-Schlachtensee connection skipped
+Schöneberg connection skipped
+Berlin-Schöneweide Pbf connection skipped
+Berlin-Schönholz connection skipped
+Berlin-Spandau connection skipped
+Berlin-Spindlersfeld connection skipped
+Berlin-Tempelhof connection skipped
+Berlin-Wannsee connection skipped
+Berlin-Wilhelmsruh connection skipped
+Berlin-Zehlendorf connection skipped
+Berliner Tor connection skipped
+Bernau (b Berlin) connection skipped
+Bernau a. Chiemsee connection skipped
+Bernburg Hbf connection skipped
+Besigheim connection skipped
+Betriebsbahnhof Berlin-Rummelsburg connection skipped
+Johannisthal connection skipped
+Betzdorf (Sieg) connection skipped
+Beutelsbach connection skipped
+Bexbach connection skipped
+Biberach (Baden) connection skipped
+Biberach (Riß) connection skipped
+Biblis connection skipped
+Bickenbach (Bergstr) connection skipped
+Biebesheim connection skipped
+Biederitz connection skipped
+Bielefeld Hbf connection skipped
+Bienenbüttel connection skipped
+Biesdorf connection skipped
+Biessenhofen connection skipped
+Bietigheim (Baden) connection skipped
+Bietigheim-Bissingen connection skipped
+Billwerder-Moorfleet connection skipped
+Bingen (Rhein) Hbf connection skipped
+Bingen (Rhein) Stadt connection skipped
+Bingen-Gaulsheim connection skipped
+Ostseebad Binz connection skipped
+Birkenstein connection skipped
+Birkenwerder (b Berlin) connection skipped
+Maintal West connection skipped
+Bischofswerda connection skipped
+Bissendorf connection skipped
+Bitterfeld connection skipped
+Blankenburg (Harz) connection skipped
+Blankenese connection skipped
+Blankenfelde (Kr Teltow-Fläming) connection skipped
+Blankenloch connection skipped
+Blaubeuren connection skipped
+Bleicherode Ost connection skipped
+Bobenheim connection skipped
+Bobingen connection skipped
+Böbingen (Rems) connection skipped
+Böblingen connection skipped
+Bochum Hbf connection skipped
+Bochum-Dahlhausen connection skipped
+Bochum-Ehrenfeld connection skipped
+Bochum-Langendreer connection skipped
+Bochum-Langendreer West connection skipped
+Bodenheim connection skipped
+Bodenwöhr Nord connection skipped
+Böhl-Iggelheim connection skipped
+Böhlen Werke connection skipped
+Bohmte connection skipped
+Bondorf (b Herrenberg) connection skipped
+Bönen connection skipped
+Bonn Hbf connection skipped
+Bonn-Bad Godesberg connection skipped
+Bonn-Beuel connection skipped
+Bonn-Mehlem connection skipped
+Bonn-Oberkassel connection skipped
+Boppard Hbf connection skipped
+Bordesholm connection skipped
+Borgsdorf connection skipped
+Borken (Hess) connection skipped
+Borna (b Leipzig) connection skipped
+Bornholmer Straße connection skipped
+Borsdorf (Sachs) connection skipped
+Senden-Bösensell connection skipped
+Botanischer Garten connection skipped
+Bottrop Hbf connection skipped
+Brachbach connection skipped
+Bielefeld-Brackwede connection skipped
+Brake (b Bielefeld) connection skipped
+Bramsche connection skipped
+Brandenburg Hbf connection skipped
+Brannenburg connection skipped
+Braubach connection skipped
+Braunschweig Hbf connection skipped
+Brebach connection skipped
+Bredstedt connection skipped
+Breisach connection skipped
+Breitengüßbach connection skipped
+Bremen Hbf connection skipped
+Bremen Neustadt connection skipped
+Bremen-Burg connection skipped
+Bremen-Lesum connection skipped
+Bremen-Mahndorf connection skipped
+Bremen-Oslebshausen connection skipped
+Bremen-Schönebeck connection skipped
+Bremen-Sebaldsbrück connection skipped
+Bremen-St Magnus connection skipped
+Bremen-Vegesack connection skipped
+Bremen-Walle connection skipped
+Bremerhaven Hbf connection skipped
+Bremerhaven-Lehe Pbf connection skipped
+Bretten connection skipped
+Brilon Wald connection skipped
+Brohl connection skipped
+Lengede-Broistedt connection skipped
+Bruchenbrücken connection skipped
+Bruchmühlbach-Miesau connection skipped
+Bruchsal connection skipped
+Brühl connection skipped
+Bübingen connection skipped
+Büchen connection skipped
+Buchenau (Oberbay) connection skipped
+Büchenbach connection skipped
+Buchholz (Nordheide) connection skipped
+Buchloe connection skipped
+Dreieich-Buchschlag connection skipped
+Bückeburg connection skipped
+Buckower Chaussee connection skipped
+Budenheim connection skipped
+Bühl (Baden) connection skipped
+Buir connection skipped
+Buldern connection skipped
+Bullay DB connection skipped
+Bünde (Westf) connection skipped
+Bundesplatz connection skipped
+Burg (b Magdeburg) connection skipped
+Burgau (Schwab) connection skipped
+Burgdorf (Han) connection skipped
+Burgkunstadt connection skipped
+Burgthann connection skipped
+Butzbach connection skipped
+Bützow connection skipped
+Buxtehude connection skipped
+Calau (Niederlausitz) connection skipped
+Calbe (Saale) Ost connection skipped
+Castrop-Rauxel Hbf connection skipped
+Celle Pbf connection skipped
+Cham (Oberpf) connection skipped
+Chemnitz Hbf connection skipped
+Chemnitz Süd connection skipped
+Coburg connection skipped
+Cochem (Mosel) connection skipped
+Coesfeld (Westf) connection skipped
+Cölbe connection skipped
+Leipzig Coppiplatz connection skipped
+Berlin Hauptbahnhof connection skipped
+Coswig (Bz Dresden) connection skipped
+Cottbus Hbf connection skipped
+Crailsheim connection skipped
+Creußen (Oberfr) connection skipped
+Cuxhaven connection skipped
+Dabendorf connection skipped
+Dachau Bahnhof connection skipped
+Dallgow-Döberitz connection skipped
+Darmstadt Hbf connection skipped
+Darmstadt Nord connection skipped
+Darmstadt Süd connection skipped
+Darmstadt-Eberstadt connection skipped
+Dedensen / Gümmer connection skipped
+Deggendorf Hbf connection skipped
+Deisenhofen connection skipped
+Delitzsch unt Bf connection skipped
+Delmenhorst connection skipped
+Demmin connection skipped
+Denzlingen connection skipped
+Dernau connection skipped
+Dessau Hbf connection skipped
+Detmold connection skipped
+Dettingen (Main) connection skipped
+Diebsteich connection skipped
+Dieburg connection skipped
+Diedorf (Schwab) connection skipped
+Diepholz connection skipped
+Dieringhausen connection skipped
+Diez connection skipped
+Dillenburg connection skipped
+Dillingen (Donau) connection skipped
+Dillingen (Saar) connection skipped
+Dingolfing connection skipped
+Dinkelscherben connection skipped
+Dinslaken connection skipped
+Ditzingen connection skipped
+Döbeln Hbf connection skipped
+Doberlug-Kirchhain connection skipped
+Dollbergen connection skipped
+Dombühl connection skipped
+Donaueschingen connection skipped
+Donauwörth connection skipped
+Dorfen Bahnhof connection skipped
+Dormagen connection skipped
+Dorsten connection skipped
+Dortelweil connection skipped
+Dortmund Hbf connection skipped
+Dortmund-Stadthaus connection skipped
+Dortmund-Universität connection skipped
+Dortmund Signal-Iduna-Park connection skipped
+Dortmund-Barop connection skipped
+Dortmund-Brackel connection skipped
+Dortmund-Derne connection skipped
+Dortmund-Dorstfeld connection skipped
+Dortmund-Dorstfeld Süd connection skipped
+Dortmund-Hörde connection skipped
+Dortmund-Kley connection skipped
+Dortmund-Kurl connection skipped
+Dortmund-Mengede connection skipped
+Dortmund-Nette/Oestrich connection skipped
+Dortmund-Oespel connection skipped
+Dortmund-Scharnhorst connection skipped
+Drensteinfurt connection skipped
+Dresden Hbf connection skipped
+Dresden Industriegelände connection skipped
+Dresden Mitte connection skipped
+Dresden-Dobritz connection skipped
+Dresden-Friedrichstadt connection skipped
+Dresden-Klotzsche connection skipped
+Dresden-Neustadt connection skipped
+Dresden-Niedersedlitz Hp connection skipped
+Dresden-Pieschen connection skipped
+Dresden-Plauen connection skipped
+Dresden-Reick connection skipped
+Dresden-Strehlen connection skipped
+Dresden-Trachau connection skipped
+Dresden-Zschachwitz connection skipped
+Duckterath connection skipped
+Rodgau-Dudenhofen connection skipped
+Dudweiler connection skipped
+Duisburg Hbf connection skipped
+Duisburg Schlenk connection skipped
+Duisburg-Buchholz connection skipped
+Duisburg-Großenbaum connection skipped
+Duisburg-Hochfeld Süd connection skipped
+Duisburg-Meiderich Süd connection skipped
+Duisburg-Rahm connection skipped
+Viersen-Dülken connection skipped
+Dülmen connection skipped
+Düren connection skipped
+Durmersheim connection skipped
+Düsseldorf-Benrath connection skipped
+Düsseldorf Flughafen connection skipped
+Düsseldorf Hbf connection skipped
+Düsseldorf Volksgarten connection skipped
+Düsseldorf Wehrhahn connection skipped
+Düsseldorf Zoo connection skipped
+Düsseldorf-Bilk connection skipped
+Düsseldorf-Derendorf connection skipped
+Düsseldorf-Eller connection skipped
+Düsseldorf-Eller Mitte connection skipped
+Düsseldorf-Eller Süd connection skipped
+Düsseldorf-Flingern connection skipped
+Düsseldorf-Friedrichstadt connection skipped
+Düsseldorf-Garath connection skipped
+Düsseldorf-Gerresheim connection skipped
+Düsseldorf-Hamm connection skipped
+Düsseldorf-Hellerhof connection skipped
+Düsseldorf-Oberbilk connection skipped
+Düsseldorf-Rath connection skipped
+Düsseldorf-Rath Mitte connection skipped
+Düsseldorf-Reisholz connection skipped
+Düsseldorf-Unterrath connection skipped
+Düsseldorf Völklinger Straße connection skipped
+Ebenhausen (Unterfr) connection skipped
+Ebensfeld connection skipped
+Eberbach connection skipped
+Ebersbach (Fils) connection skipped
+Ebersbach (Sachs) connection skipped
+Ebersberg (Oberbay) connection skipped
+Eberswalde Hbf connection skipped
+Eching connection skipped
+Echterdingen connection skipped
+Eckernförde connection skipped
+Eddersheim connection skipped
+Efringen-Kirchen connection skipped
+Egelsbach connection skipped
+Egestorf (Deister) connection skipped
+Eggmühl connection skipped
+Eglharting connection skipped
+Ehingen (Donau) connection skipped
+Ehlershausen connection skipped
+Ehningen (b Böblingen) connection skipped
+Ehrang connection skipped
+Eichenau (Oberbay) connection skipped
+Eichenberg connection skipped
+Eichstätt Bahnhof connection skipped
+Eichwalde connection skipped
+Eidelstedt connection skipped
+Eilenburg connection skipped
+Eilenburg Ost connection skipped
+Eilsleben (b Magdeburg) connection skipped
+Einbeck-Salzderhelden connection skipped
+Eisenach connection skipped
+Eisenhüttenstadt connection skipped
+Eislingen (Fils) connection skipped
+Eitorf connection skipped
+Elbgaustraße connection skipped
+Völksen-Eldagsen connection skipped
+Ellingen (Bay) connection skipped
+Ellwangen connection skipped
+Elmshorn connection skipped
+Elsterwerda connection skipped
+Eltville connection skipped
+Elze (Han) connection skipped
+Emden Hbf connection skipped
+Emmendingen connection skipped
+Emmerich connection skipped
+Emmerthal connection skipped
+Empel-Rees connection skipped
+Empelde connection skipped
+Emsdetten connection skipped
+Emskirchen connection skipped
+Endersbach connection skipped
+Engelskirchen connection skipped
+Engen connection skipped
+Engers connection skipped
+Ennepetal (Gevelsberg) connection skipped
+Enzberg connection skipped
+Eppstein connection skipped
+Erbach (Württ) connection skipped
+Erftstadt connection skipped
+Erfurt Hbf connection skipped
+Erfurt Nord connection skipped
+Erfurt-Bischleben connection skipped
+Ergoldsbach connection skipped
+Erkelenz connection skipped
+Erkner connection skipped
+Erkrath connection skipped
+Erlangen connection skipped
+Erlangen-Bruck connection skipped
+Erndtebrück connection skipped
+Erzhausen connection skipped
+Erzingen (Baden) connection skipped
+Eschborn connection skipped
+Eschborn Süd connection skipped
+Eschhofen connection skipped
+Eschweiler Hbf connection skipped
+Essen Hbf connection skipped
+Essen Stadtwald connection skipped
+Essen Süd connection skipped
+Essen West connection skipped
+Essen-Altenessen connection skipped
+Essen-Borbeck connection skipped
+Essen-Borbeck Süd connection skipped
+Essen-Eiberg connection skipped
+Essen-Frohnhausen connection skipped
+Essen-Gerschede connection skipped
+Essen-Hügel connection skipped
+Essen-Kupferdreh connection skipped
+Essen-Steele connection skipped
+Essen-Steele Ost connection skipped
+Essen-Werden connection skipped
+Esslingen (Neckar) connection skipped
+Esslingen-Mettingen connection skipped
+Esslingen-Zell connection skipped
+Vierkirchen-Esterhofen connection skipped
+Esting connection skipped
+Etelsen connection skipped
+Ettlingen West connection skipped
+Euskirchen connection skipped
+Eutin connection skipped
+Eutingen (Baden) connection skipped
+Eutingen im Gäu connection skipped
+Rostock Evershagen connection skipped
+Falkenberg (Elster) connection skipped
+Falkensee connection skipped
+Fallersleben connection skipped
+Frankfurt-Höchst Farbwerke connection skipped
+Fasanenpark connection skipped
+Favoritepark connection skipped
+Feldafing connection skipped
+Feldkirchen (b München) connection skipped
+Fellbach connection skipped
+Feucht connection skipped
+Feuerbachstraße connection skipped
+Finnentrop connection skipped
+Finsterwalde (Niederlausitz) connection skipped
+Fischbach (b Nürnberg) connection skipped
+Fischen connection skipped
+Flensburg connection skipped
+Flieden connection skipped
+Flöha connection skipped
+Flörsheim (Main) connection skipped
+Schönefeld (bei Berlin) connection skipped
+Flughafen München connection skipped
+Flughafen München Besucherpark connection skipped
+Stuttgart Flughafen/Messe connection skipped
+Forchheim (b Karlsruhe) connection skipped
+Forchheim (Oberfr) connection skipped
+Frankenthal Hbf connection skipped
+Frankfurt (Main) Flughafen Regionalbahnhof connection skipped
+Frankfurt (Main) Lokalbahnhof connection skipped
+Frankfurt (Main) Mühlberg connection skipped
+Frankfurt (Main) Ost connection skipped
+Frankfurt (Main) Ostendstraße connection skipped
+Frankfurt am Main Stadion connection skipped
+Frankfurt (Main) Stresemannallee connection skipped
+Frankfurt (Main) Süd connection skipped
+Frankfurt (Main) Taunusanlage connection skipped
+Frankfurt (Main) West connection skipped
+Frankfurt (Oder) connection skipped
+Frankfurt (Main) Galluswarte connection skipped
+Frankfurt (Main) Hauptwache connection skipped
+Frankfurt (Main) Konstablerwache connection skipped
+Frankfurt (Main) Hbf connection skipped
+Frankfurt-Berkersheim connection skipped
+Frankfurt-Eschersheim connection skipped
+Frankfurt-Frankfurter Berg connection skipped
+Frankfurt-Griesheim connection skipped
+Frankfurt-Höchst connection skipped
+Frankfurt-Louisa connection skipped
+Frankfurt-Mainkur connection skipped
+Frankfurt-Nied connection skipped
+Frankfurt (Main) Niederrad connection skipped
+Frankfurt-Rödelheim connection skipped
+Frankfurt-Sindlingen connection skipped
+Fredersdorf (b Berlin) connection skipped
+Freiberg (Neckar) connection skipped
+Freiberg (Sachs) connection skipped
+Freiburg (Breisgau) Hbf connection skipped
+Freiburg-Littenweiler connection skipped
+Freiburg-Wiehre connection skipped
+Freilassing connection skipped
+Freinsheim connection skipped
+Freising connection skipped
+Freital-Deuben connection skipped
+Freital-Hainsberg connection skipped
+Freital-Potschappel connection skipped
+Freudenstadt Hbf connection skipped
+Friedberg (b Augsburg) connection skipped
+Friedberg (Hess) connection skipped
+Friedenau connection skipped
+Friedrich Wilhelmshütte connection skipped
+Friedrichsberg connection skipped
+Friedrichsdorf (Taunus) connection skipped
+Friedrichsfeld (Niederrhein) connection skipped
+Friedrichsfelde Ost connection skipped
+Friedrichshafen Hafen connection skipped
+Friedrichshafen Stadt connection skipped
+Friedrichstadt connection skipped
+Fröndenberg connection skipped
+Fröttstädt connection skipped
+Fulda connection skipped
+Fürstenberg (Havel) connection skipped
+Fürstenfeldbruck connection skipped
+Fürstenwalde (Spree) connection skipped
+Furth (b Deisenhofen) connection skipped
+Fürth (Bay) Hbf connection skipped
+Furth im Wald connection skipped
+Fürth-Burgfarrnbach connection skipped
+Gablingen connection skipped
+Garmisch-Partenkirchen connection skipped
+Gärtringen connection skipped
+Markkleeberg-Gaschwitz connection skipped
+Gau Algesheim connection skipped
+Gäufelden connection skipped
+Gauting connection skipped
+Gehrenseestraße connection skipped
+Geilenkirchen connection skipped
+Geisenbrunn connection skipped
+Geisenheim connection skipped
+Geislingen (Steige) connection skipped
+Geithain connection skipped
+Geldern connection skipped
+Gelnhausen connection skipped
+Gelsenkirchen Hbf connection skipped
+Geltendorf connection skipped
+Gemünden (Main) connection skipped
+Gengenbach connection skipped
+Gensingen-Horrweiler connection skipped
+Genthin connection skipped
+Georgensgmünd connection skipped
+Gera Hbf connection skipped
+Gera Süd connection skipped
+Geradstetten connection skipped
+Köln Steinstraße connection skipped
+Germering-Unterpfaffenhofen connection skipped
+Germersheim connection skipped
+Gernlinden connection skipped
+Gerolstein connection skipped
+Geseke connection skipped
+Gessertshausen connection skipped
+Giengen (Brenz) connection skipped
+Gießen connection skipped
+Gifhorn connection skipped
+Gilching-Argelsried connection skipped
+Gladbeck West connection skipped
+Glauchau (Sachs) connection skipped
+Glückstadt connection skipped
+Riedstadt-Goddelau connection skipped
+Hennef Im Siegbogen connection skipped
+Goldberg connection skipped
+Göppingen connection skipped
+Görlitz connection skipped
+Jena-Göschwitz connection skipped
+Goslar connection skipped
+Gößnitz connection skipped
+Gotha connection skipped
+Gottenheim connection skipped
+Göttingen connection skipped
+Gottmadingen connection skipped
+Graben-Neudorf connection skipped
+Gräfelfing connection skipped
+Grafing Bahnhof connection skipped
+Grafing Stadt connection skipped
+Grafrath connection skipped
+Gransee connection skipped
+Grebenstein connection skipped
+Greifswald connection skipped
+Grenzach connection skipped
+Greven connection skipped
+Grevenbroich connection skipped
+Lennestadt-Grevenbrück connection skipped
+Potsdam Griebnitzsee connection skipped
+Edermünde-Grifte connection skipped
+Grimma ob Bf connection skipped
+Gröbenzell connection skipped
+Gröbers connection skipped
+Gronau (Westf) connection skipped
+Gronsdorf connection skipped
+Groß Gerau connection skipped
+Groß Gerau-Dornberg connection skipped
+Groß Karben connection skipped
+Frechen-Königsdorf connection skipped
+Groß Rohrheim connection skipped
+Großauheim (Kr Hanau) connection skipped
+Großbothen connection skipped
+Großburgwedel connection skipped
+Großen Linden connection skipped
+Großenhain Cottb Bf connection skipped
+Großheringen connection skipped
+Großhesselohe Isartalbahnhof connection skipped
+Großkorbetha connection skipped
+Großkrotzenburg connection skipped
+Heddesheim/Hirschberg connection skipped
+Grub (Oberbay) connection skipped
+Haan-Gruiten connection skipped
+Grunbach connection skipped
+Grünberg (Oberhess) connection skipped
+Grünbergallee connection skipped
+Grünstadt connection skipped
+Guben connection skipped
+Güdingen connection skipped
+Gundelfingen connection skipped
+Guntersblum connection skipped
+Baunatal-Guntershausen connection skipped
+Günzburg connection skipped
+Gunzenhausen connection skipped
+Güsten connection skipped
+Güstrow connection skipped
+Gütersloh Hbf connection skipped
+Guxhagen connection skipped
+Haan connection skipped
+Haar connection skipped
+Hackescher Markt connection skipped
+Hagen Hbf connection skipped
+Hamburg Airport (Flughafen) connection skipped
+Hähnlein-Alsbach connection skipped
+Nürnberg-Steinbühl connection skipped
+Haiger connection skipped
+Hailer-Meerholz connection skipped
+Rodgau-Hainhausen connection skipped
+Halberstadt connection skipped
+Haldensleben connection skipped
+Hallbergmoos connection skipped
+Halle (Saale) Hbf connection skipped
+Halle-Neustadt connection skipped
+Hallstadt (b Bamberg) connection skipped
+Halstenbek connection skipped
+Haltern am See connection skipped
+München-Untermenzing connection skipped
+Hamburg Dammtor connection skipped
+Hamburg Hbf connection skipped
+Holstenstraße connection skipped
+Sternschanze connection skipped
+Hamburg-Altona connection skipped
+Hamburg-Bergedorf connection skipped
+Hamburg-Harburg connection skipped
+Hamburg-Neugraben connection skipped
+Hamburg-Rahlstedt connection skipped
+Hamburg-Wandsbek connection skipped
+Wilhelmsburg connection skipped
+Hämelerwald connection skipped
+Hameln connection skipped
+Hamm (Westf) Hbf connection skipped
+Hammerbrook connection skipped
+Hanau Hbf connection skipped
+Hanau Nord connection skipped
+Hanau West connection skipped
+Hanau-Wilhelmsbad connection skipped
+Hannover Bismarckstraße connection skipped
+Hannover Hbf connection skipped
+Hannover-Bornum connection skipped
+Hannover-Kleefeld connection skipped
+Hannover-Leinhausen connection skipped
+Hannover-Linden/Fischerhof connection skipped
+Harburg Rathaus connection skipped
+Harthaus connection skipped
+Hartmannshof connection skipped
+Haslach connection skipped
+Haspelmoor connection skipped
+Hasselbrook connection skipped
+Haßfurt connection skipped
+Haßloch (Pfalz) connection skipped
+Haste (Han) connection skipped
+Hattersheim (Main) connection skipped
+Hattingen (Ruhr) connection skipped
+Hauptstuhl connection skipped
+Hausach connection skipped
+Hedemünden connection skipped
+Hamm-Heessen connection skipped
+Heide (Holst) connection skipped
+Heidelberg Hbf connection skipped
+Heidelberg-Altstadt connection skipped
+Heidelberg-Kirchheim/Rohrbach connection skipped
+Heidelberg-Pfaffengrund/Wieblingen connection skipped
+Heidelberger Platz connection skipped
+Heidenau connection skipped
+Heidenau Süd connection skipped
+Heidenau-Großsedlitz connection skipped
+Heidenheim connection skipped
+Heidesheim (Rheinhess) connection skipped
+Heilbronn Hbf connection skipped
+Heilbad Heiligenstadt connection skipped
+Heilsbronn connection skipped
+Heimersheim connection skipped
+Heimfeld connection skipped
+Heimstetten connection skipped
+Heitersheim connection skipped
+Nidderau connection skipped
+Helmstedt connection skipped
+Hemsbach connection skipped
+Hennef (Sieg) connection skipped
+Hennigsdorf (b Berlin) connection skipped
+Heppenheim (Bergstr) connection skipped
+Herbertingen connection skipped
+Herbolzheim (Breisgau) connection skipped
+Herborn (Dillkr) connection skipped
+Herchen connection skipped
+Herford connection skipped
+Hermannstraße connection skipped
+Hermsdorf-Klosterlausnitz connection skipped
+Herne connection skipped
+Herrenberg connection skipped
+Herrsching connection skipped
+Hersbruck (rechts Pegnitz) connection skipped
+Herzberg (Harz) connection skipped
+Herzogenrath connection skipped
+Hilden connection skipped
+Hilden Süd connection skipped
+Hildesheim Hbf connection skipped
+Münster-Hiltrup connection skipped
+Himmelreich connection skipped
+Hinterzarten connection skipped
+Hirschgarten connection skipped
+Hirschhorn (Neckar) connection skipped
+Stellingen connection skipped
+Hochdahl connection skipped
+Hochdahl-Millrath connection skipped
+Hochheim (Main) connection skipped
+Hochkamp connection skipped
+Hochneukirch connection skipped
+Hochspeyer connection skipped
+Maintal Ost connection skipped
+Hochstadt-Marktzeuln connection skipped
+Hockenheim connection skipped
+Hof Hbf connection skipped
+Hofgeismar connection skipped
+Hofheim (Taunus) connection skipped
+Höfingen connection skipped
+Hohen Neuendorf (b Berlin) connection skipped
+Hosena connection skipped
+Hohenbrunn connection skipped
+Hoheneichen connection skipped
+Höhenkirchen-Siegertsbrunn connection skipped
+Hohenlimburg connection skipped
+Hohenstein-Ernstthal connection skipped
+Hohenzollerndamm connection skipped
+Teltow Stadt connection skipped
+Höllriegelskreuth connection skipped
+Holzkirchen connection skipped
+Holzminden connection skipped
+Holzwickede connection skipped
+Homburg (Saar) Hbf connection skipped
+Hoppegarten (Mark) connection skipped
+Horb connection skipped
+Horka Pbf connection skipped
+Hornberg connection skipped
+Horneburg connection skipped
+Horrem connection skipped
+Hörstel connection skipped
+Hösel connection skipped
+Hoyerswerda connection skipped
+Hude connection skipped
+Hulb connection skipped
+Humboldthain connection skipped
+Hofgeismar-Hümme connection skipped
+Hünfeld connection skipped
+Husum connection skipped
+Ibbenbüren connection skipped
+Idar-Oberstein connection skipped
+Idstein (Taunus) connection skipped
+Illertissen connection skipped
+Illingen (Württ) connection skipped
+Immendingen connection skipped
+Immenhausen (Hess) connection skipped
+Immenstadt connection skipped
+Ingelheim connection skipped
+Ingolstadt Hbf connection skipped
+Ingolstadt Nord connection skipped
+Innsbrucker Platz connection skipped
+Ismaning connection skipped
+Itzehoe connection skipped
+Filderstadt connection skipped
+Jannowitzbrücke connection skipped
+Jena Paradies connection skipped
+Jena West connection skipped
+Jossa connection skipped
+Rodgau-Jügesheim connection skipped
+Jungfernheide connection skipped
+Jungfernstieg connection skipped
+Jünkerath connection skipped
+Jüterbog connection skipped
+Kahl (Main) connection skipped
+Kahla (Thür) connection skipped
+Kaiserslautern Hbf connection skipped
+Kaldenkirchen connection skipped
+Kall connection skipped
+Hürth-Kalscheuren connection skipped
+Langenhagen - Kaltenweide connection skipped
+Kamen connection skipped
+Kamen-Methler connection skipped
+Kandel connection skipped
+Karlsruhe Hbf connection skipped
+Karlsruhe-Durlach connection skipped
+Karlsruhe-Hagsfeld connection skipped
+Karlsruhe-Mühlburg connection skipped
+Karlstadt (Main) connection skipped
+Karthaus connection skipped
+Kassel Hbf connection skipped
+Kassel-Harleshausen connection skipped
+Kassel-Wilhelmshöhe connection skipped
+Kaub connection skipped
+Kaufbeuren connection skipped
+Kaufering connection skipped
+Kehl connection skipped
+Keitum connection skipped
+Kellmünz connection skipped
+Kelsterbach connection skipped
+Kempten (Allgäu) Hbf connection skipped
+Kenzingen connection skipped
+Kettwig connection skipped
+Kevelaer connection skipped
+Kiefersfelden connection skipped
+Kiel Hbf connection skipped
+Kierberg connection skipped
+Kirch Göns connection skipped
+Kirchen connection skipped
+Kirchenlaibach connection skipped
+Kirchentellinsfurt connection skipped
+Kirchhain (Bz Kassel) connection skipped
+Kirchheim (Neckar) connection skipped
+Kirchheim (Teck) connection skipped
+Kirchheim (Teck)-Ötlingen connection skipped
+Kirchlengern connection skipped
+Kirchseeon connection skipped
+Kirchweyhe connection skipped
+Kirchzarten connection skipped
+Kirn connection skipped
+Kissing connection skipped
+Kißlegg connection skipped
+Kitzingen connection skipped
+Klanxbüll connection skipped
+Klein Flottbek connection skipped
+Kleinostheim connection skipped
+Kleinenbroich connection skipped
+Kobern-Gondorf connection skipped
+Koblenz Hbf connection skipped
+Koblenz-Ehrenbreitstein connection skipped
+Koblenz-Lützel connection skipped
+Kohlscheid connection skipped
+Köllnische Heide connection skipped
+Köln Geldernstr/Parkgürtel connection skipped
+Köln Hbf connection skipped
+Köln Süd connection skipped
+Köln Trimbornstrasse connection skipped
+Köln Volkhovener Weg connection skipped
+Köln West connection skipped
+Köln-Buchforst connection skipped
+Köln-Chorweiler connection skipped
+Köln-Chorweiler Nord connection skipped
+Köln-Dellbrück connection skipped
+Köln Messe/Deutz connection skipped
+Köln-Ehrenfeld connection skipped
+Köln Hansaring connection skipped
+Köln-Holweide connection skipped
+Ellental connection skipped
+Köln-Longerich connection skipped
+Köln-Mülheim connection skipped
+Köln-Nippes connection skipped
+Köln-Stammheim connection skipped
+Köln-Worringen connection skipped
+Eppstein-Bremthal connection skipped
+Königs Wusterhausen connection skipped
+Königslutter connection skipped
+Königstein (Sächs Schweiz) connection skipped
+Königstraße connection skipped
+Königswinter connection skipped
+Könnern connection skipped
+Konstanz connection skipped
+Konstanz-Petershausen connection skipped
+Konz connection skipped
+Körle connection skipped
+Korntal connection skipped
+Kornweg (Klein Borstel) connection skipped
+Kornwestheim Pbf connection skipped
+Korschenbroich connection skipped
+Köthen connection skipped
+Krefeld Hbf connection skipped
+Krefeld-Linn connection skipped
+Krefeld-Oppum connection skipped
+Krefeld-Uerdingen connection skipped
+Kreiensen connection skipped
+Kressbronn connection skipped
+Kreuztal connection skipped
+Kriftel connection skipped
+Kronach connection skipped
+Kronberg (Taunus) connection skipped
+Krupunder connection skipped
+Kulmbach connection skipped
+Hannover-Messe / Laatzen connection skipped
+Ladenburg connection skipped
+Lage (Lippe) connection skipped
+Ibbenbüren-Laggenbeck connection skipped
+Lahr (Schwarzw) connection skipped
+Lambrecht (Pfalz) connection skipped
+Lampertheim connection skipped
+Landau (Isar) connection skipped
+Landau (Pfalz) Hbf connection skipped
+Landsberger Allee connection skipped
+Landshut (Bay) Hbf connection skipped
+Landstuhl connection skipped
+Landsweiler-Reden connection skipped
+Landungsbrücken connection skipped
+Landwehr connection skipped
+Lang Göns connection skipped
+Langebrück (Sachs) connection skipped
+Langen (Hess) connection skipped
+Langenau (Württ) connection skipped
+Velbert-Langenberg connection skipped
+Langenfeld (Rheinl) connection skipped
+Langenfeld (Rheinl)-Berghausen connection skipped
+Langenfelde connection skipped
+Langenhagen Pferdemarkt connection skipped
+Langenhorn (Schlesw) connection skipped
+Langenselbold connection skipped
+Langerwehe connection skipped
+Langwedel connection skipped
+Langweid (Lech) connection skipped
+Lauda connection skipped
+Laudenbach (Bergstr) connection skipped
+Lauenbrück connection skipped
+Lauf (links Pegnitz) connection skipped
+Lauf (rechts Pegnitz) connection skipped
+Lauffen (Neckar) connection skipped
+Laupheim West connection skipped
+Leer (Ostfriesl) connection skipped
+Lehnitz connection skipped
+Lehrte connection skipped
+Leichlingen connection skipped
+Leinefelde connection skipped
+Leinfelden connection skipped
+Leipheim connection skipped
+Leipzig Hbf connection skipped
+Leipzig-Völkerschlachtdenkmal connection skipped
+Leipzig-Connewitz connection skipped
+Leipzig-Gohlis connection skipped
+Leipzig-Leutzsch connection skipped
+Leipzig-Möckern connection skipped
+Leipzig-Paunsdorf connection skipped
+Leipzig-Plagwitz connection skipped
+Leipzig-Stötteritz connection skipped
+Leipzig-Wahren connection skipped
+Lemförde connection skipped
+Lemmie connection skipped
+Lengerich (Westf) connection skipped
+Leonberg connection skipped
+Iserlohn-Letmathe connection skipped
+Letter connection skipped
+Leutesdorf (Rhein) connection skipped
+Leutkirch connection skipped
+Leverkusen Mitte connection skipped
+Leverkusen-Küppersteg connection skipped
+Leverkusen-Rheindorf connection skipped
+Leverkusen-Manfort connection skipped
+Lich (Oberhess) connection skipped
+Lichtenfels connection skipped
+Rostock Lichtenhagen connection skipped
+Lichtenrade connection skipped
+Limburg (Lahn) connection skipped
+Limburgerhof connection skipped
+Limburg Süd connection skipped
+Lindau-Insel connection skipped
+Lindau-Reutin connection skipped
+Lindern connection skipped
+Lingen (Ems) connection skipped
+Linz (Rhein) connection skipped
+Lippstadt connection skipped
+Löbau (Sachs) connection skipped
+Lochham connection skipped
+Lohhof connection skipped
+Löhne (Westf) connection skipped
+Lohr Bahnhof connection skipped
+Lollar connection skipped
+Lorch (Württ) connection skipped
+Lörrach Hbf connection skipped
+Lorsbach connection skipped
+Lövenich connection skipped
+Löwenberg (Mark) connection skipped
+Lübben (Spreewald) connection skipped
+Lübbenau (Spreewald) connection skipped
+Lübeck Hbf connection skipped
+Luckenwalde connection skipped
+Ludwigsburg connection skipped
+Ludwigsfelde connection skipped
+Ludwigshafen (Rhein) Hbf connection skipped
+Ludwigshafen-Mundenheim connection skipped
+Ludwigshafen-Oggersheim connection skipped
+Ludwigshafen-Rheingönheim connection skipped
+Ludwigslust connection skipped
+Luisenthal (Saar) connection skipped
+Lunden connection skipped
+Lüneburg connection skipped
+Lünen Hbf connection skipped
+Lutherstadt Eisleben connection skipped
+Lutherstadt Wittenberg Hauptbahnhof connection skipped
+Rostock Lütten Klein connection skipped
+Magdeburg Hbf connection skipped
+Magdeburg Südost connection skipped
+Magdeburg SKET Industriepark connection skipped
+Magdeburg-Buckau connection skipped
+Magdeburg-Eichenweiler connection skipped
+Magdeburg-Neustadt connection skipped
+Magdeburg-Salbke connection skipped
+Mahlow connection skipped
+Mainz Hbf connection skipped
+Mainz Nord connection skipped
+Mainz Römisches Theater connection skipped
+Mainz-Bischofsheim connection skipped
+Mainz-Gustavsburg connection skipped
+Mainz-Kastel connection skipped
+Mainz-Laubenheim connection skipped
+Mainz-Mombach connection skipped
+Maisach connection skipped
+Bad Malente-Gremsmühlen connection skipped
+Malmsheim connection skipped
+Mannheim Hbf connection skipped
+Neu-Edingen/Friedrichsfeld connection skipped
+Mannheim-Friedrichsfeld Süd connection skipped
+Mannheim-Luzenberg connection skipped
+Mannheim-Neckarau connection skipped
+Mannheim-Rheinau connection skipped
+Mannheim-Seckenheim connection skipped
+Mannheim-Waldhof connection skipped
+Marbach (Neckar) connection skipped
+Marburg (Lahn) connection skipped
+Marburg Süd connection skipped
+Markdorf (Baden) connection skipped
+Markkleeberg connection skipped
+Markt Schwaben connection skipped
+Marktredwitz connection skipped
+Marl-Sinsen connection skipped
+Marquardt connection skipped
+Maschen connection skipped
+Maubach connection skipped
+Maxhütte-Haidhof connection skipped
+Mayen Ost connection skipped
+Mechernich connection skipped
+Meckelfeld connection skipped
+Meckenbeuren connection skipped
+Meckenheim connection skipped
+Meckesheim connection skipped
+Meerbusch-Osterath connection skipped
+Mehrower Allee connection skipped
+Meiningen connection skipped
+Meißen connection skipped
+Meitingen connection skipped
+Melle connection skipped
+Mellendorf connection skipped
+Memmingen connection skipped
+Menden (Rheinl) connection skipped
+Mengen connection skipped
+Meppen connection skipped
+Mering connection skipped
+Merseburg Hbf connection skipped
+Mertingen Bahnhof connection skipped
+Merzig (Saar) connection skipped
+Meschede connection skipped
+Metzingen connection skipped
+Mexikoplatz connection skipped
+Michendorf connection skipped
+Leipzig Miltitzer Allee connection skipped
+Mindelheim connection skipped
+Minden (Westf) connection skipped
+Mittenwald connection skipped
+Mittlerer Landweg connection skipped
+Mittweida connection skipped
+Möckmühl connection skipped
+Mockrehna connection skipped
+Moers connection skipped
+Mönchengladbach Hbf connection skipped
+Monsheim connection skipped
+Montabaur connection skipped
+Moosburg connection skipped
+Mörfelden connection skipped
+Morsum (Sylt) connection skipped
+Mosbach (Baden) connection skipped
+Mössingen connection skipped
+Mühlacker connection skipped
+Mühlhausen (Thür) connection skipped
+Mühlheim (Main) connection skipped
+Mülheim (Ruhr) Hbf connection skipped
+Mülheim (Ruhr) West connection skipped
+Mülheim (Ruhr)-Styrum connection skipped
+Müllheim (Baden) connection skipped
+Münchberg connection skipped
+München Donnersbergerbrücke connection skipped
+München-Hackerbrücke connection skipped
+München Harras connection skipped
+München Hbf connection skipped
+München Heimeranplatz connection skipped
+München Isartor connection skipped
+München Karlsplatz connection skipped
+München Leienfelsstraße connection skipped
+München Leuchtenbergring connection skipped
+München Marienplatz connection skipped
+München Ost connection skipped
+München Rosenheimer Platz connection skipped
+München St Martin Straße connection skipped
+München Siemenswerke connection skipped
+München-Allach connection skipped
+München-Aubing connection skipped
+München-Berg am Laim connection skipped
+München-Daglfing connection skipped
+München-Englschalking connection skipped
+München-Fasanerie connection skipped
+München-Fasangarten connection skipped
+München-Feldmoching connection skipped
+München-Freiham connection skipped
+München-Giesing connection skipped
+München-Johanneskirchen connection skipped
+München-Karlsfeld connection skipped
+München-Laim Pbf connection skipped
+München-Langwied connection skipped
+München-Lochhausen connection skipped
+München-Mittersendling connection skipped
+München-Moosach connection skipped
+München-Neuaubing connection skipped
+München-Neuperlach Süd connection skipped
+München-Obermenzing connection skipped
+München-Pasing connection skipped
+München-Perlach connection skipped
+München-Riem Pbf connection skipped
+München-Solln connection skipped
+München-Trudering connection skipped
+München-Westkreuz connection skipped
+Münster (Westf) Hbf connection skipped
+Murnau connection skipped
+Murrhardt connection skipped
+Nackenheim connection skipped
+Mammendorf connection skipped
+Nauen connection skipped
+Naumburg (Saale) Hbf connection skipped
+Mosbach-Neckarelz connection skipped
+Neckargemünd connection skipped
+Neckargerach connection skipped
+Neckarsteinach connection skipped
+Neckarsulm connection skipped
+Arnsberg-Neheim-Hüsten connection skipped
+Nellmersbach connection skipped
+Nersingen connection skipped
+Nettelnburg connection skipped
+Neu Isenburg connection skipped
+Neu-Ulm connection skipped
+Beckum-Neubeckum connection skipped
+Neubiberg connection skipped
+Neubrandenburg connection skipped
+Neubrücke (Nahe) connection skipped
+Neuburg (Donau) connection skipped
+Neudietendorf connection skipped
+Neuenmarkt-Wirsberg connection skipped
+Neufahrn (b Freising) connection skipped
+Neufahrn (Niederbay) connection skipped
+Neugilching connection skipped
+Neuhaus (Pegnitz) connection skipped
+Neuhof (Kr Fulda) connection skipped
+Neukieritzsch connection skipped
+Neukirchen (b Sulzb) connection skipped
+Neulußheim connection skipped
+Neumarkt (Oberpf) connection skipped
+Neumünster connection skipped
+Neunkirchen (Saar) Hbf connection skipped
+Neunkirchen (Saar)-Wellesweiler connection skipped
+Neunkirchen a Sand connection skipped
+Neupetershain connection skipped
+Neusäß connection skipped
+Neuss Am Kaiser connection skipped
+Neuss Hbf connection skipped
+Neuss Rheinpark-Center connection skipped
+Neustadt (Aisch) Bahnhof connection skipped
+Neustadt (Dosse) connection skipped
+Neustadt (Kr Marburg) connection skipped
+Neustadt (Schwarzw) connection skipped
+Neustadt (Weinstr) Böbig connection skipped
+Neustadt (Weinstr) Hbf connection skipped
+Neustadt a Rübenberge connection skipped
+Neustadt-Hohenacker connection skipped
+Neustrelitz Hbf connection skipped
+Neuwied connection skipped
+Neuwiedenthal connection skipped
+Neuwirtshaus (Porscheplatz) connection skipped
+Neuzelle connection skipped
+Velbert-Neviges connection skipped
+Nidda connection skipped
+Niebüll connection skipped
+Rodgau-Nieder Roden connection skipped
+Nieder Wöllstadt connection skipped
+Niederbrechen connection skipped
+Niederdollendorf connection skipped
+Niederhöchstadt connection skipped
+Niederjosbach connection skipped
+Niederlahnstein connection skipped
+Niederlinxweiler connection skipped
+Niedermittlau connection skipped
+Niedernhausen (Taunus) connection skipped
+Niederschelden connection skipped
+Niederselters connection skipped
+Niederwalgern connection skipped
+Niederwiesa connection skipped
+Niefern connection skipped
+Nienburg (Weser) connection skipped
+Nierstein connection skipped
+Nikolassee connection skipped
+Nöldnerplatz connection skipped
+Norddeich Mole connection skipped
+Norden connection skipped
+Nordendorf connection skipped
+Nordhausen connection skipped
+Nördlingen connection skipped
+Nordstemmen connection skipped
+Norf connection skipped
+Nörten-Hardenberg connection skipped
+Northeim (Han) connection skipped
+Nufringen connection skipped
+Nürnberg Hbf connection skipped
+Nürnberg Ost connection skipped
+Nürnberg Rothenburger Straße connection skipped
+Nürnberg-Dürrenhof connection skipped
+Nürnberg-Dutzendteich connection skipped
+Nürnberg-Eibach connection skipped
+Nürnberg-Frankenstadion connection skipped
+Nürnberg-Gleißhammer connection skipped
+Nürnberg-Laufamholz connection skipped
+Nürnberg-Ostring connection skipped
+Nürnberg-Reichelsdorf connection skipped
+Nürnberg-Stein connection skipped
+Nürtingen connection skipped
+Rödermark-Ober Roden connection skipped
+Oberaichen connection skipped
+Oberaudorf connection skipped
+Oberesslingen connection skipped
+Oberhaid connection skipped
+Oberhausen Hbf connection skipped
+Oberhausen-Holten connection skipped
+Oberhausen-Sterkrade connection skipped
+Oberkochen connection skipped
+Oberkotzau connection skipped
+Oberlahnstein connection skipped
+Oberndorf (Neckar) connection skipped
+Oberschleißheim connection skipped
+Oberstdorf connection skipped
+Obertraubling connection skipped
+Obertshausen (Kr Offenbach) connection skipped
+Oberursel (Taunus) connection skipped
+Vellmar-Obervellmar connection skipped
+Oberwesel connection skipped
+Oberwinter connection skipped
+Ochenbruck connection skipped
+Westerstede-Ocholt connection skipped
+Ochsenfurt connection skipped
+Ochtrup connection skipped
+Oebisfelde connection skipped
+Oelde connection skipped
+Oestrich-Winkel connection skipped
+Offenbach (Main) Hbf connection skipped
+Offenbach (Main) Ost connection skipped
+Offenbach-Bieber connection skipped
+Offenburg connection skipped
+Oftersheim connection skipped
+Starnberg-Nord connection skipped
+Ohlsdorf connection skipped
+Öhringen Hbf connection skipped
+Okarben connection skipped
+Oker connection skipped
+Köln/Bonn Flughafen connection skipped
+Olching connection skipped
+Oldenburg (Oldb) Hbf connection skipped
+Olsberg connection skipped
+Opladen connection skipped
+Oppenheim connection skipped
+Oranienburg connection skipped
+Oranienburger Straße connection skipped
+Orschweier connection skipped
+Oschatz connection skipped
+Osnabrück Altstadt connection skipped
+Osnabrück Hbf connection skipped
+Osterburken connection skipped
+Osterhofen (Niederbay) connection skipped
+Osterholz-Scharmbeck connection skipped
+Ostheim (b Butzbach) connection skipped
+Osthofen connection skipped
+Berlin Ostkreuz connection skipped
+Othmarschen connection skipped
+Ötigheim connection skipped
+Otterfing connection skipped
+Ottersberg (Han) connection skipped
+Offenbach-Waldhof connection skipped
+Otting-Weilheim connection skipped
+Ottobrunn connection skipped
+Ottweiler (Saar) connection skipped
+Overath connection skipped
+Owschlag connection skipped
+Paderborn Hbf connection skipped
+Pankow-Heinersdorf connection skipped
+Papenburg (Ems) connection skipped
+Berlin Südkreuz connection skipped
+Parsberg connection skipped
+Pasewalk connection skipped
+Passau Hbf connection skipped
+Pegnitz connection skipped
+Peine connection skipped
+Petershausen (Oberbay) connection skipped
+Pfaffenhofen (Ilm) connection skipped
+Pfalzel connection skipped
+Pforzheim Hbf connection skipped
+Philippsburg (Baden) connection skipped
+Ottensen connection skipped
+Pinneberg connection skipped
+Pirmasens Hbf connection skipped
+Pirmasens Nord connection skipped
+Pirna connection skipped
+Planegg (Krailling) connection skipped
+Plänterwald connection skipped
+Plattling connection skipped
+Plaue (Thür) connection skipped
+Plauen (Vogtl) ob Bf connection skipped
+Pleinfeld connection skipped
+Plettenberg connection skipped
+Plochingen connection skipped
+Plüderhausen connection skipped
+Poelchaustraße connection skipped
+Poing connection skipped
+Poppenbüttel connection skipped
+Porta Westfalica connection skipped
+Porz (Rhein) connection skipped
+Porz-Wahn connection skipped
+Wülfrath-Aprath connection skipped
+Possenhofen connection skipped
+Postbauer-Heng connection skipped
+Potsdam Charlottenhof connection skipped
+Potsdam Hbf connection skipped
+Potsdam Medienstadt Babelsberg connection skipped
+Potsdam Park Sanssouci connection skipped
+Berlin Potsdamer Platz connection skipped
+Preetz connection skipped
+Prenzlau connection skipped
+Schwerin Mitte connection skipped
+Prenzlauer Allee connection skipped
+Lünen Preußen connection skipped
+Priemerburg connection skipped
+Prien am Chiemsee connection skipped
+Priesterweg connection skipped
+Prisdorf connection skipped
+Probstzella connection skipped
+Puchheim connection skipped
+Pulheim connection skipped
+Pulling (b Freising) connection skipped
+Quedlinburg connection skipped
+Radeberg connection skipped
+Radebeul Ost connection skipped
+Radebeul-Kötzschenbroda connection skipped
+Radebeul-Weintraube connection skipped
+Radldorf (Niederbay) connection skipped
+Radolfzell connection skipped
+Rahnsdorf connection skipped
+Raisdorf connection skipped
+Rangsdorf connection skipped
+Raoul-Wallenberg-Straße connection skipped
+Rastatt connection skipped
+Rastede connection skipped
+Rathaus Steglitz connection skipped
+Rathenow connection skipped
+Ratingen Ost connection skipped
+Ratzeburg connection skipped
+Raubling connection skipped
+Raunheim connection skipped
+Ravensburg connection skipped
+Reckenfeld connection skipped
+Recklinghausen Hbf connection skipped
+Recklinghausen Süd connection skipped
+Reeperbahn connection skipped
+Regensburg Hbf connection skipped
+Regensburg-Prüfening connection skipped
+Reichenbach (Fils) connection skipped
+Reichenbach (Vogtl) ob Bf connection skipped
+Reinbek connection skipped
+Reinfeld (Holst) connection skipped
+Remagen connection skipped
+Remscheid Hbf connection skipped
+Remscheid-Lennep connection skipped
+Renchen connection skipped
+Rendsburg connection skipped
+Renningen connection skipped
+Retzbach-Zellingen connection skipped
+Reutlingen Hbf connection skipped
+Rheda-Wiedenbrück connection skipped
+Rheine connection skipped
+Rheinfelden (Baden) connection skipped
+Rheinhausen connection skipped
+Rheinhausen Ost connection skipped
+Rheydt Hbf connection skipped
+Rhöndorf connection skipped
+Ribnitz-Damgarten West connection skipped
+Riegel-Malterdingen connection skipped
+Riesa connection skipped
+Ringsheim/Europa-Park connection skipped
+Rissen connection skipped
+Röblingen am See connection skipped
+Rockenhausen connection skipped
+Rodenbach bei Hanau connection skipped
+Rohrbach (Saar) connection skipped
+Röhrmoos connection skipped
+Roisdorf connection skipped
+Rommelshausen connection skipped
+Rommerskirchen connection skipped
+Köln-Müngersdorf Technologiepark connection skipped
+Ronnenberg (Han) connection skipped
+Röntgental connection skipped
+Rosbach (Sieg) connection skipped
+Köln Frankfurter Straße connection skipped
+Rosenheim connection skipped
+Rösrath connection skipped
+Roßlau (Elbe) connection skipped
+Roßtal connection skipped
+Rostock Hbf connection skipped
+Rostock Holbeinplatz connection skipped
+Rostock Parkstraße connection skipped
+Rostock-Bramow connection skipped
+Rostock-Marienehe connection skipped
+Rot-Malsch connection skipped
+Rotenburg (Wümme) connection skipped
+Roth connection skipped
+Röthenbach (Pegnitz) connection skipped
+Rothenburgsort connection skipped
+Rottenbach connection skipped
+Rottenburg (Neckar) connection skipped
+Rottendorf connection skipped
+Rottweil connection skipped
+Rövershagen connection skipped
+Rübenkamp connection skipped
+Rückersdorf (Mittelfr) connection skipped
+Solingen-Mitte connection skipped
+Rüdesheim (Rhein) connection skipped
+Rudolstadt (Thür) connection skipped
+Ruhland connection skipped
+Rumeln connection skipped
+Rüsselsheim connection skipped
+Rüsselsheim Opelwerk connection skipped
+Rutesheim connection skipped
+Saalfeld (Saale) connection skipped
+Saarbrücken Hbf connection skipped
+Saarbrücken Ost connection skipped
+Saarburg (Bz Trier) connection skipped
+Saarlouis Hbf connection skipped
+Sachsenheim connection skipped
+Salzbergen connection skipped
+Salzgitter-Ringelheim connection skipped
+Salzkotten connection skipped
+Merzenich connection skipped
+Salzwedel connection skipped
+Sande connection skipped
+Sandersleben (Anh) connection skipped
+Sangerhausen connection skipped
+Sarstedt connection skipped
+Sauerlach connection skipped
+Savignyplatz connection skipped
+Schaftlach connection skipped
+Schallstadt connection skipped
+Scharbeutz connection skipped
+Scheeßel connection skipped
+Scheidt (Saar) connection skipped
+Schichauweg connection skipped
+Schifferstadt connection skipped
+Schifferstadt Süd connection skipped
+Schkeuditz connection skipped
+Schladern (Sieg) connection skipped
+Schleswig connection skipped
+Heidelberg-Schlierbach-Ziegelhausen connection skipped
+Schlüchtern connection skipped
+Mering-St Afra connection skipped
+Schöna connection skipped
+Schönebeck (Elbe) connection skipped
+Schongau connection skipped
+Schöngeising connection skipped
+Schönhauser Allee connection skipped
+Schopfheim connection skipped
+Schorndorf connection skipped
+Schwaan connection skipped
+Schwabach connection skipped
+Schwabach-Limbach connection skipped
+Schwäbisch Gmünd connection skipped
+Schwäbisch Hall-Hessental connection skipped
+Schwabmünchen connection skipped
+Schwaikheim connection skipped
+Schwalbach a Ts (Limes) connection skipped
+Schwandorf connection skipped
+Schwarzenbek connection skipped
+Schwarzenfeld (Oberpf) connection skipped
+Schweich DB connection skipped
+Schweinfurt Hbf connection skipped
+Schweinfurt Stadt connection skipped
+Schwelm connection skipped
+Schwerin Hbf connection skipped
+Schwerte (Ruhr) connection skipped
+Schwetzingen connection skipped
+Schwindegg connection skipped
+Bornheim-Sechtem connection skipped
+Seckach connection skipped
+Seddin connection skipped
+Sedlitz Ost connection skipped
+Solingen-Grünewald connection skipped
+Seefeld-Hechendorf connection skipped
+Seelze Pbf connection skipped
+Seesen connection skipped
+Sehnde connection skipped
+Senden connection skipped
+Senftenberg connection skipped
+Sersheim connection skipped
+Seubersdorf connection skipped
+Seulberg connection skipped
+Siegburg/Bonn connection skipped
+Siegelsdorf connection skipped
+Siegen Hbf connection skipped
+Siegen-Weidenau connection skipped
+Sigmaringen connection skipped
+Singen (Hohentwiel) connection skipped
+Sinsheim (Elsenz) Hbf connection skipped
+Sinzig (Rhein) connection skipped
+Bad Sobernheim connection skipped
+Soest connection skipped
+Solingen Vogelpark connection skipped
+Solingen Hbf connection skipped
+Soltau (Han) connection skipped
+Sömmerda connection skipped
+Sonneberg (Thür) Hbf connection skipped
+Sonthofen connection skipped
+Sottrum connection skipped
+Spaichingen connection skipped
+Speyer Hbf connection skipped
+Spich connection skipped
+Münster-Sprakel connection skipped
+Springe connection skipped
+Springpfuhl connection skipped
+Sprötze connection skipped
+St Egidien connection skipped
+St. Georgen (Schwarzw) connection skipped
+St. Goar connection skipped
+St. Ilgen/Sandhausen connection skipped
+St. Ingbert connection skipped
+St. Wendel connection skipped
+St. Michaelisdonn connection skipped
+Stade connection skipped
+Stadt Wehlen (Sachs) connection skipped
+Stadtallendorf connection skipped
+Stadthagen connection skipped
+Stadthausbrücke connection skipped
+Bad Staffelstein connection skipped
+Starnberg connection skipped
+Staßfurt connection skipped
+Staudernheim connection skipped
+Steinach (b Rothenburg o.d. Tauber) connection skipped
+Steinau (Straße) connection skipped
+Friedrichshafen Flughafen connection skipped
+Steinbach a Wald connection skipped
+Steinen connection skipped
+Steinheim/Main connection skipped
+Stelle connection skipped
+Stendal Hbf connection skipped
+Stendal-Stadtsee connection skipped
+Stetten-Beinstein connection skipped
+Stockdorf connection skipped
+Glauburg-Stockheim connection skipped
+Stolberg (Rheinl) Hbf connection skipped
+Stommeln connection skipped
+Storkower Straße connection skipped
+Stralsund Hbf connection skipped
+Straubing connection skipped
+Strausberg connection skipped
+Strausberg Nord connection skipped
+Strausberg Stadt connection skipped
+Stuttgart Hbf connection skipped
+Stuttgart Neckarpark connection skipped
+Stuttgart Nord connection skipped
+Stuttgart Nürnberger Straße connection skipped
+Stuttgart Österfeld connection skipped
+Stuttgart Universität connection skipped
+Stuttgart-Bad Cannstatt connection skipped
+Stuttgart-Feuerbach connection skipped
+Stuttgart Feuersee connection skipped
+Stuttgart-Obertürkheim connection skipped
+Stuttgart-Rohr connection skipped
+Stuttgart Schwabstraße connection skipped
+Stuttgart-Sommerrain connection skipped
+Stuttgart Stadtmitte connection skipped
+Stuttgart-Untertürkheim Pbf connection skipped
+Stuttgart-Vaihingen connection skipped
+Stuttgart-Weilimdorf connection skipped
+Stuttgart-Zuffenhausen connection skipped
+Suhl connection skipped
+Sülldorf connection skipped
+Sulz (Neckar) connection skipped
+Sulzbach (Murr) connection skipped
+Sulzbach (Saar) connection skipped
+Sundgauer Straße connection skipped
+Süßen connection skipped
+Syke connection skipped
+Sythen connection skipped
+Tamm (Württ) connection skipped
+Taucha (b Leipzig) connection skipped
+Taufkirchen connection skipped
+Teisendorf connection skipped
+Thale Hbf connection skipped
+Tharandt connection skipped
+Thesdorf connection skipped
+Tiefstack connection skipped
+Tiengen (Hochrhein) connection skipped
+Tiergarten connection skipped
+Timmendorferstrand connection skipped
+Titisee connection skipped
+Torgau connection skipped
+Tornesch connection skipped
+Tostedt connection skipped
+Traunstein connection skipped
+Trebbin connection skipped
+Treis-Karden connection skipped
+Treptower Park connection skipped
+Treuchtlingen connection skipped
+Treysa connection skipped
+Triberg connection skipped
+Trier Hbf connection skipped
+Trier Süd connection skipped
+Troisdorf connection skipped
+Trompet connection skipped
+Tübingen Hbf connection skipped
+Türkenfeld connection skipped
+Türkheim (Bay) Bahnhof connection skipped
+Türkismühle connection skipped
+Tuttlingen connection skipped
+Tutzing connection skipped
+Twistringen connection skipped
+Übach-Palenberg connection skipped
+Übersee connection skipped
+Uelzen connection skipped
+Uffing am Staffelsee connection skipped
+Uhingen connection skipped
+Ulm Hbf connection skipped
+Unkel connection skipped
+Unna connection skipped
+Berlin Brandenburger Tor connection skipped
+Unterföhring connection skipped
+Unterhaching connection skipped
+Unterlüß connection skipped
+Unterschleißheim connection skipped
+Urbach (b Schorndorf) connection skipped
+Mülheim-Kärlich connection skipped
+Vach connection skipped
+Vaihingen (Enz) connection skipped
+Varel (Oldb) connection skipped
+Vaterstetten connection skipped
+Vechelde connection skipped
+Veddel connection skipped
+Veitshöchheim connection skipped
+Velgast connection skipped
+Velten (Mark) connection skipped
+Verden (Aller) connection skipped
+Vienenburg connection skipped
+Viersen connection skipped
+Villingen (Schwarzw) connection skipped
+Vilshofen (Niederbay) connection skipped
+Hannover - Vinnhorst connection skipped
+Voerde (Niederrhein) connection skipped
+Vöhrum connection skipped
+Völklingen connection skipped
+Wabern (Bz Kassel) connection skipped
+Wächterhof connection skipped
+Wächtersbach connection skipped
+Waghäusel connection skipped
+Waiblingen connection skipped
+Waidmannslust connection skipped
+Waldkirch connection skipped
+Waldshut connection skipped
+Walldorf (Hess) connection skipped
+Hebertshausen connection skipped
+Hamburg-Tonndorf connection skipped
+Wandsbeker Chaussee connection skipped
+Wangen (Allgäu) connection skipped
+Wanne-Eickel Hbf connection skipped
+Wannweil connection skipped
+Warburg (Westf) connection skipped
+Waren (Müritz) connection skipped
+Warnemünde connection skipped
+Warnemünde Werft connection skipped
+Warschauer Straße connection skipped
+Wartenberg connection skipped
+Wattenscheid connection skipped
+Wattenscheid-Höntrop connection skipped
+Wedel (Holst) connection skipped
+Weetzen connection skipped
+Weiden (Oberpf) connection skipped
+Weil am Rhein connection skipped
+Weil der Stadt connection skipped
+Weilburg connection skipped
+Weiler (Rems) connection skipped
+Weilheim (Oberbay) connection skipped
+Weimar connection skipped
+Weinheim (Bergstr) Hbf connection skipped
+Weischlitz connection skipped
+Rodgau-Weiskirchen connection skipped
+Weißenburg (Bay) connection skipped
+Weißenfels connection skipped
+Weißenthurm connection skipped
+Oberursel-Weißkirchen/Steinbach connection skipped
+Weißwasser (Oberlausitz) connection skipped
+Wellingsbüttel connection skipped
+Welver connection skipped
+Wendlingen (Neckar) connection skipped
+Wennigsen (Deister) connection skipped
+Werdau connection skipped
+Werder (Havel) connection skipped
+Werdohl connection skipped
+Werl connection skipped
+Wernau (Neckar) connection skipped
+Wernberg connection skipped
+Werne (a d Lippe) connection skipped
+Wernigerode Hbf connection skipped
+Wernshausen connection skipped
+Wesel connection skipped
+Weßling (Oberbay) connection skipped
+Westend connection skipped
+Westerland (Sylt) connection skipped
+Westheim (Schwab) connection skipped
+Berlin-Westkreuz connection skipped
+Wetter (Ruhr) connection skipped
+Wetzlar connection skipped
+Wickede (Ruhr) connection skipped
+Wicklesgreuth connection skipped
+Groß Umstadt-Wiebelsbach connection skipped
+Wiesau (Oberpf) connection skipped
+Wiesbaden Hbf connection skipped
+Wiesbaden Ost connection skipped
+Wiesloch-Walldorf connection skipped
+Wiesthal connection skipped
+Wildau connection skipped
+Wilferdingen-Singen connection skipped
+Wilhelmshagen connection skipped
+Wilhelmshaven connection skipped
+Wilhelmshorst connection skipped
+Wilster connection skipped
+Winden (Pfalz) connection skipped
+Winnenden connection skipped
+Winsen (Luhe) connection skipped
+Winterbach (b Schorndorf) connection skipped
+Wismar connection skipped
+Wissen (Sieg) connection skipped
+Witten Hbf connection skipped
+Wittenau (Wilhelmsruher Damm) connection skipped
+Wittenberge connection skipped
+Wittlich Hbf connection skipped
+Witzenhausen Nord connection skipped
+Messe Nord / ICC (Witzleben) connection skipped
+Wohltorf connection skipped
+Wolfen (Bitterfeld) connection skipped
+Wolfsburg Hbf connection skipped
+Wollankstraße connection skipped
+Wolmirstedt connection skipped
+Rohrbach (Ilm) connection skipped
+Worms Hbf connection skipped
+Wörrstadt connection skipped
+Wörth (Isar) connection skipped
+Wörth (Rhein) connection skipped
+Wrist connection skipped
+Wuhlheide connection skipped
+Wünsdorf Waldstadt connection skipped
+Wunstorf connection skipped
+Wuppertal Hbf connection skipped
+Wuppertal Zoologischer Garten connection skipped
+Wuppertal-Barmen connection skipped
+Wuppertal-Oberbarmen connection skipped
+Wuppertal-Ronsdorf connection skipped
+Wuppertal-Sonnborn connection skipped
+Wuppertal-Steinbeck connection skipped
+Wuppertal-Unterbarmen connection skipped
+Wuppertal-Vohwinkel connection skipped
+Würzburg Hbf connection skipped
+Würzburg Süd connection skipped
+Würzburg-Heidingsfeld Ost connection skipped
+Wurzen connection skipped
+Wustermark connection skipped
+Elstal connection skipped
+Yorckstraße connection skipped
+Zapfendorf connection skipped
+Zeitz connection skipped
+Zella-Mehlis connection skipped
+Zepernick (b Bernau) connection skipped
+Zeuthen connection skipped
+Zieverich connection skipped
+Erlangen Paul-Gossen-Straße connection skipped
+Zittau connection skipped
+Zorneding connection skipped
+Zossen connection skipped
+Züssow connection skipped
+Zweibrücken Hbf connection skipped
+Zwickau (Sachs) Hbf connection skipped
+Zwingenberg (Bergstr) connection skipped
+Weidenthal connection skipped
+Südende connection skipped
+Dietzenbach Bahnhof connection skipped
+Heusenstamm connection skipped
+Mühlheim-Dietesheim connection skipped
+Offenbach-Kaiserlei connection skipped
+Offenbach Ledermuseum connection skipped
+Offenbach Marktplatz connection skipped
+Bürstadt (Ried) connection skipped
+Langenhagen-Mitte connection skipped
+Hannover-Flughafen connection skipped
+Hannover Karl-Wiechert-Allee connection skipped
+Hannover - Ledeburg connection skipped
+Aachen Schanz connection skipped
+Dietzenbach-Mitte connection skipped
+Dietzenbach-Steinberg connection skipped
+Ludwigshafen (Rhein) Mitte connection skipped
+Köln-Blumenberg connection skipped
+Münster Zentrum Nord connection skipped
+Alt-Reinickendorf connection skipped
+Berlin-Lichterfelde Ost connection skipped
+Berlin-Tegel connection skipped
+Eichborndamm connection skipped
+Beusselstraße connection skipped
+Messe Süd (Eichkamp) connection skipped
+Heerstraße connection skipped
+Heiligensee connection skipped
+Lichterfelde Süd connection skipped
+Olympiastadion connection skipped
+Pichelsberg connection skipped
+Schulzendorf (b Tegel) connection skipped
+Sonnenallee connection skipped
+Seegefeld connection skipped
+Yorckstraße (Großgörschenstraße) connection skipped
+Wedding connection skipped
+Julius-Leber-Brücke connection skipped
+Westhafen connection skipped
+Stresow connection skipped
+Osdorferstraße connection skipped
+Meckenheim Industriepark connection skipped
+Leipzig Messe connection skipped
+Hannover-Nordstadt connection skipped
+Bernau-Friedenstal connection skipped
+Gießen Oswaldsgarten connection skipped
+Oberursel-Stierstadt connection skipped
+Allermöhe connection skipped
+Frankfurt am Main Messe connection skipped
+Frankfurt am Main Flughafen Fernbahnhof connection skipped
+Augsburg Messe connection skipped
+Flughafen Leipzig/Halle connection skipped
+Dresden Flughafen connection skipped
+Leipzig-Engelsdorf connection skipped
+Langen-Flugsicherung connection skipped
+Lörrach Museum/Burghof connection skipped
+Lörrach Schwarzwaldstraße connection skipped
+HD-Weststadt/Südstadt connection skipped
+Heidelberg-Orthopädie connection skipped
+Mosbach West connection skipped
+Neckargemünd Altstadt connection skipped
+Frankfurt-Zeilsheim connection skipped
+Dresden Freiberger Straße connection skipped
+Dresden Bischofsplatz connection skipped
+Leipzig Markt connection skipped
+Leipzig Wilhelm-Leuschner-Platz connection skipped
+Leipzig Bayerischer Bahnhof connection skipped
+Maichingen Nord connection skipped
+Köln-Weiden West connection skipped
+Vellmar-Osterberg/EKZ connection skipped
+Kassel-Kirchditmold connection skipped
+München-Hirschgarten connection skipped
+Mannheim ARENA / Maimarkt connection skipped
+Ahrensburg-Gartenholz connection skipped
+Flughafen BER connection skipped
+Frankenthal Süd connection skipped
+Bonn UN Campus connection skipped
+Waßmannsdorf connection skipped
+Germersheim Mitte/Rhein connection skipped
+Koblenz Stadtmitte connection skipped
+Schwetzingen-Hirschacker connection skipped
+Stettfeld-Weiher connection skipped
+Frankfurt am Main Gateway Gardens connection skipped
+Neckarsulm Nord connection skipped
+Leipzig Mockauer Straße connection skipped
+Meißen Altstadt connection skipped
+Weinheim-Sulzbach connection skipped
+Markkleeberg Nord connection skipped
+Leipzig Essener Straße connection skipped
+Elbbrücken connection skipped
+Ingolstadt Audi connection skipped
+Merklingen - Schwäbische Alb connection skipped
+Jaderberg connection skipped
+Herten (Westf) connection skipped
+Lübeck-Moisling connection skipped
+Düsseldorf Flughafen Terminal connection skipped
