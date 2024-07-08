@@ -1,0 +1,17 @@
+state,departure_delay_m,departure_plan,departure_delay_check
+Baden-Württemberg,328512,158858,15305
+Bayern,396724,195904,15296
+Berlin,97380,200341,3521
+Brandenburg,32383,35112,1352
+Bremen,7046,6442,257
+Hamburg,56090,91692,2305
+Hessen,248325,120951,11523
+Mecklenburg-Vorpommern,14018,14449,404
+Niedersachsen,105883,52270,4895
+Nordrhein-Westfalen,548839,210482,26805
+Rheinland-Pfalz,120732,47152,5816
+Saarland,10202,10384,446
+Sachsen,54747,50539,2077
+Sachsen-Anhalt,29516,19386,1319
+Schleswig-Holstein,32656,21383,1499
+Thüringen,17963,13403,751

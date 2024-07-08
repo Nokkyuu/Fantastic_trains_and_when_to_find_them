@@ -7,5 +7,5 @@ import streamlit as st
 
 st.title("Fantastic Trains and where to find them")
 
-df = pd.read_csv("data/fromAPI/cleaned_hourly_all2.csv")
+df = pd.read_csv("data/states.csv")
 st.write(df)
