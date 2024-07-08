@@ -5,7 +5,17 @@ import plotly.express as px
 from datetime import datetime
 
 # Title
-st.title("Fantastic Trains and Where to Find Them")
+st.markdown("""
+<style>
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown('<h1 class="title">Fantastic Trains and Where to Find Them</h1>', unsafe_allow_html=True)
 
 # Load data
 df = pd.read_csv("data/states.csv")
