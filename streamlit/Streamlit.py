@@ -18,44 +18,18 @@ st.title("Fantastic Trains and where to find them")
 #dataframes
 df = pd.read_csv("data/states.csv")
 heatmap_df2 = pd.read_csv("data/heatmap.csv")
-df_station = pd.read_csv("data/stations.csv")
+df_station = pd.read_csv("data/statedelay.csv")
 
 
 #Barcharts states 
-fig0, axes = plt.subplots(1, 4, figsize=(12, 4), constrained_layout=True)
 
-sns.barplot(data=df_station.sort_values(by="departure_plan", ascending=False).head(15), y="name", x="departure_plan", 
-            palette="flare", orient="h", hue="departure_plan", ax=axes[0])
-axes[0].set_xlabel(f"departures")
-axes[0].tick_params(axis='x', rotation=90)
-axes[0].set_ylabel("")
-axes[0].get_legend().remove()
-
-    
-
-sns.barplot(data=df_station.sort_values(by="departure_plan", ascending=False).head(15), y="name", x="delay_cnt/departure", 
-            palette="flare", orient="h", hue="departure_plan", ax=axes[1])
-axes[1].set_xlabel(f"delays/departure %")
-axes[1].tick_params(axis='x', rotation=90)
-axes[1].get_legend().remove()
-axes[1].get_yaxis().set_visible(False)
 
 
 sns.set_theme(style="whitegrid")
-sns.barplot(data=df_station.sort_values(by="departure_plan", ascending=False).head(15), y="name", x="delay_m/departure", 
-            palette="flare", orient="h", hue="departure_plan", ax=axes[2])
-axes[2].set_xlabel(f"delay_m/departure")
-axes[2].tick_params(axis='x', rotation=90)
-axes[2].get_legend().remove()
-axes[2].get_yaxis().set_visible(False)
-
-sns.barplot(data=df_station.sort_values(by="departure_plan", ascending=False).head(15), y="name", x="delay_m/delay_cnt", 
-            palette="flare", orient="h", hue="departure_plan", ax=axes[3])
-axes[3].set_xlabel(f"avg_minutes/delay")
-axes[3].tick_params(axis='x', rotation=90)
-#axes[3].get_legend().remove()
-axes[3].get_yaxis().set_visible(False)
-axes[3].legend(title="departure Plan")
+fig0 = px.bar(df_station.sort_values(by="delay_cnt/departure", ascending=False).head(16),
+              y="state", x="delay_m/departure",
+                  color_continuous_scale="Magma"
+)
 
 st.plotly_chart(fig0)
 
@@ -65,7 +39,15 @@ st.plotly_chart(fig0)
 
 #add sidebar for filters
 st.sidebar.header("Filters")
-states = st.sidebar.multiselect("State", df['state'].unique())
+states = st.sidebar.multiselect("State", df_station['state'].unique())
+
+# Filter data based on selections
+if states:
+    filtered_data = df_station[df_station['state'].isin(states)]
+else:
+    filtered_data = df_station
+
+
 
 #heatmap with timeseries
 st.subheader("Map of Germany")
