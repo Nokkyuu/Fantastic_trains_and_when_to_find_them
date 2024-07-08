@@ -23,12 +23,14 @@ df_station = pd.read_csv("data/statedelay.csv")
 
 
 
+
+
 # Sidebar filters
 with st.sidebar:
     st.title("DB Delay Dashboard")
     st.sidebar.header("Filters")
 
-    column_selection = st.sidebar.selectbox("Select Measure", options=["departure_delay_m", "departure_plan", "departure_delay_check", "delay_m/departure", "delay_m/delay_cnt", "delay_cnt/departure"])
+    column_selection = st.sidebar.selectbox("Select Measure", options=["departure_plan", "departure_delay_check", "delay_cnt/departure"])
 
     all_states_option = "All"
     states = st.sidebar.multiselect("State", [all_states_option] + list(df_station['state'].unique()), default=all_states_option)
@@ -44,17 +46,68 @@ else:
 
 
 
+
+
+col0, col1 = st.columns(2)
+
+#1st graph
 fig0 = px.bar(
     filtered_data.sort_values(by=column_selection, ascending=False).head(16),
     y="state", 
     x=column_selection,
     color="state",
     title=f"Top 16 States by {column_selection.replace('_', ' ').capitalize()}",
-    height=400,
+    height=350,
 )
-st.plotly_chart(fig0)
+
+#st.plotly_chart(fig0)
 
 
+#2nd graph
+fig1 = px.bar(
+    filtered_data.sort_values(by="departure_delay_m", ascending=False).head(16),
+    y="state", 
+    x="departure_delay_m",
+    color="state",
+    title=f"Top 16 States by delays/departure %",
+    height=350,
+)
+
+with col0:
+    st.plotly_chart(fig0)
+with col1:
+    st.plotly_chart(fig1)
+
+
+col2, col3 = st.columns(2)
+
+#3rd graph
+fig2 = px.bar(
+    filtered_data.sort_values(by="delay_m/departure", ascending=False).head(16),
+    y="state", 
+    x="delay_m/departure",
+    color="state",
+    title=f"Top 16 States by delay_m/departure",
+    height=350,
+)
+
+#st.plotly_chart(fig2)
+
+
+#4th graph
+fig3 = px.bar(
+    filtered_data.sort_values(by="delay_m/delay_cnt", ascending=False).head(16),
+    y="state", 
+    x="delay_m/delay_cnt",
+    color="state",
+    title=f"Top 16 States by avg_minutes/delay",
+    height=350,
+)
+
+with col2:
+    st.plotly_chart(fig2)
+with col3:
+    st.plotly_chart(fig3)
 
 
 
@@ -73,14 +126,14 @@ fig5 = px.density_mapbox(
     range_color=[0, heatmap_df2.departure_delay_m.max()],
     mapbox_style="carto-positron",
     center={"lat": 51.1657, "lon": 10.4515},
-    zoom=4.8,
-    title="Departure Delays Heatmap",
+    zoom=4.5,
+    title="Departure Delays Mean Heatmap",
     color_continuous_scale="Magma",
-    height=600
+    height=456
 )
 fig5.update_layout(
     margin={"r": 0, "t": 40, "l": 0, "b": 0},
-    coloraxis_showscale=False
+    coloraxis_showscale=True,
 )
 #st.plotly_chart(fig2)
 
@@ -100,7 +153,7 @@ fig6 = px.density_mapbox(
     zoom=4.5,
     title="Departure Delays Over Time",
     animation_frame="departure_plan_datetime",
-    color_continuous_scale="Magma",
+    color_continuous_scale=px.colors.sequential.Inferno,
     height=600
 )
 fig6.update_layout(
