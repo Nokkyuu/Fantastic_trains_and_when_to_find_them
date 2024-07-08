@@ -4,6 +4,7 @@ import numpy as np
 import plotly.express as px
 from datetime import datetime
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 # Page config
@@ -42,21 +43,16 @@ else:
 
 
 
-# Barchart of delays per state
-st.subheader("States")
+
 fig0 = px.bar(
     filtered_data.sort_values(by=column_selection, ascending=False).head(16),
     y="state", 
     x=column_selection,
     color="state",
     title=f"Top 16 States by {column_selection.replace('_', ' ').capitalize()}",
-    color_continuous_scale="Magma",
-    height=400
+    height=400,
 )
 st.plotly_chart(fig0)
-
-#Tiles?
-
 
 
 
@@ -67,7 +63,7 @@ st.plotly_chart(fig0)
 
 # Heatmap with mean delays
 st.subheader("Map of Germany")
-fig2 = px.density_mapbox(
+fig5 = px.density_mapbox(
     heatmap_df2,
     lat='lat',
     lon='long',
@@ -82,7 +78,7 @@ fig2 = px.density_mapbox(
     color_continuous_scale="Magma",
     height=600
 )
-fig2.update_layout(
+fig5.update_layout(
     margin={"r": 0, "t": 40, "l": 0, "b": 0},
     coloraxis_showscale=False
 )
@@ -91,7 +87,7 @@ fig2.update_layout(
 
 
 # Heatmap with timeseries
-fig1 = px.density_mapbox(
+fig6 = px.density_mapbox(
     heatmap_df2,
     lat='lat',
     lon='long',
@@ -107,7 +103,7 @@ fig1 = px.density_mapbox(
     color_continuous_scale="Magma",
     height=600
 )
-fig1.update_layout(
+fig6.update_layout(
     margin={"r": 0, "t": 40, "l": 0, "b": 0},
     coloraxis_showscale=False
 )
@@ -115,13 +111,15 @@ fig1.update_layout(
 
 
 #adding columns to show graphs side by side
-col1, col2 = st.columns(2)
+col5, col6 = st.columns(2)
 
 # Display the graphs in the columns
-with col1:
-    st.plotly_chart(fig1)
+with col5:
+    st.plotly_chart(fig6)
 
-with col2:
-    st.plotly_chart(fig2)
+with col6:
+    st.plotly_chart(fig5)
+
+
 
 
