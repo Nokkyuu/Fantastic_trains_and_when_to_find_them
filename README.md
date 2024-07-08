@@ -1,13 +1,25 @@
 # Overview
 
 ## Preparing this repository
- - Installing blabla
+Create a virtual environment<br>
+```zsh
+pyenv local 3.11.3
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Setting up 
+- [License](/Users/mnykth/Documents/fullstack_greenbootcamps/Final_Project_Ideas/SavingDB/LICENSE)
+- [gitignore](/Users/mnykth/Documents/fullstack_greenbootcamps/Final_Project_Ideas/SavingDB/.gitignore)
+- [requirements](/Users/mnykth/Documents/fullstack_greenbootcamps/Final_Project_Ideas/SavingDB/requirements.txt)
+
 
 ## Data
 
 For detailed description of the features available in the datasets please look into the [data_description.md](data_description.md)
 
 ## Folders
+
 - API:<br> `Folder contains scripts for written to handle the different DB APIs`
 - Data:
     - fromAPI: contains .csv files created using the DB API
