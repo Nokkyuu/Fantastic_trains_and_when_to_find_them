@@ -48,6 +48,11 @@ df_city["delay_m/delay_cnt"] = df_city["departure_delay_m"] / df_city["departure
 df_city["delay_cnt/departure"] = (df_city["departure_delay_check"] / df_city["departure_plan"]) * 100
 
 
+#Logo
+#Logo
+ICON_RED = "https://preview.redd.it/deutsche-bahn-logo-bauen-r-place-v0-60xms5wt0ddb1.png?width=814&format=png&auto=webp&s=c634c8b94115358ab48c2913ef349afe63d4671d"
+st.logo(ICON_RED, icon_image=ICON_RED)
+
 
 
 # Sidebar filters
@@ -60,13 +65,13 @@ with st.sidebar:
     all_states_option = "All"
     states = st.sidebar.selectbox("State", [all_states_option] + list(df_state['state'].unique()), index=0)
 
-# Summary metrics
+# Summary metrics + button
 st.markdown("### Summary Metrics")
 total_delays = df['departure_delay_check'].count()
 average_delay = df['departure_delay_m'].mean()
 num_delayed_departures = df[df['departure_delay_check'] == 'delay']['departure_delay_check'].count()
 
-metric_col1, metric_col2, metric_col3 = st.columns(3)
+metric_col1, metric_col2, metric_col3, button_col = st.columns(4)
 with metric_col1:
     st.metric(label="Total Delays", value=total_delays)
 
@@ -76,8 +81,14 @@ with metric_col2:
 with metric_col3:
     st.metric(label="Number of Delayed Departures", value=num_delayed_departures)
 
+with button_col:
+    st.link_button("Github :sunglasses:", "https://streamlit.io/gallery")
+
 #making tabs
-tab1, tab2 = st.tabs(["Barcharts", "Maps"])
+tab0, tab1, tab2 = st.tabs(["Home","Barcharts", "Maps"])
+
+#with tab0:
+
 
 with tab1:
     # Filter data based on selections
