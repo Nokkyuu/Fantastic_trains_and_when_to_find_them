@@ -58,7 +58,7 @@ st.logo(ICON_RED, icon_image=ICON_RED)
 # Sidebar filters
 with st.sidebar:
     st.title("DB Delay Dashboard")
-    st.sidebar.header("Filters")
+    st.sidebar.header("Bar Filters")
 
     column_selection = st.sidebar.selectbox("Select Measure", options=["departure_plan", "departure_delay_check", "delay_cnt/departure"])
 
