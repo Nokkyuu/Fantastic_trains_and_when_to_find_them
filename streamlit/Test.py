@@ -13,9 +13,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-
-
-
 # Load data
 heatmap_df2 = pd.read_csv("data/heatmap.csv")
 df_states = pd.read_csv("data/statedelay.csv")
@@ -47,10 +44,6 @@ df_city["delay_m/departure"] = df_city["departure_delay_m"] / df_city["departure
 df_city["delay_m/delay_cnt"] = df_city["departure_delay_m"] / df_city["departure_delay_check"]
 df_city["delay_cnt/departure"] = (df_city["departure_delay_check"] / df_city["departure_plan"]) * 100
 
-
-
-
-
 # Sidebar filters
 with st.sidebar:
     st.title("DB Delay Dashboard")
@@ -59,17 +52,17 @@ with st.sidebar:
     column_selection = st.sidebar.selectbox("Select Measure", options=["departure_plan", "departure_delay_check", "delay_cnt/departure"])
 
     all_states_option = "All"
-    states = st.sidebar.multiselect("State", [all_states_option] + list(df_state['state'].unique()), default=all_states_option)
+    states = st.sidebar.selectbox("State", [all_states_option] + list(df_state['state'].unique()), index=0)
 
 # Filter data based on selections
-if all_states_option in states:
+if states == all_states_option:
     filtered_data = df_state.copy()  # Select all states, so no filtering needed
 else:
-    filtered_data = df_state[df_state['state'].isin(states)]
+    filtered_data = df_state[df_state['state'] == states]
 
 # Display city-level data if only one state is selected
-if len(states) == 1 and all_states_option not in states:
-    selected_state = states[0]
+if states != all_states_option:
+    selected_state = states
     state_filtered_data = df_city[df_city['state'] == selected_state]
 
     # 1st graph for cities within the selected state
@@ -121,7 +114,7 @@ with col1:
 
 col2, col3 = st.columns(2)
 
-if len(states) == 1 and all_states_option not in states:
+if states != all_states_option:
     # 3rd graph for cities within the selected state
     fig2 = px.bar(
         state_filtered_data.sort_values(by="departure_plan", ascending=False).head(16),
