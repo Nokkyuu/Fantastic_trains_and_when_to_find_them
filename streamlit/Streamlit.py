@@ -19,7 +19,7 @@ st.set_page_config(
 # Load data
 heatmap_df2 = pd.read_csv("data/heatmap.csv")
 df_station = pd.read_csv("data/statedelay.csv")
-
+df = pd.read_csv("data/fromAPI/cleaned_hourly_all2.csv")
 
 
 
@@ -100,7 +100,7 @@ fig3 = px.bar(
     y="state", 
     x="departure_plan",
     color="state",
-    title=f"Top 16 States by departures",
+    title=f"Top 16 States by departures--server.maxUploadSize 200",
     height=350,
 )
 
@@ -122,7 +122,7 @@ fig5 = px.density_mapbox(
     lon='long',
     z='departure_delay_m',
     hover_name='name',
-    radius=10,
+    radius=7,
     range_color=[0, heatmap_df2.departure_delay_m.max()],
     mapbox_style="carto-positron",
     center={"lat": 51.1657, "lon": 10.4515},
@@ -146,7 +146,7 @@ fig6 = px.density_mapbox(
     lon='long',
     z='departure_delay_m',
     hover_name='name',
-    radius=10,
+    radius=15,
     range_color=[0, heatmap_df2.departure_delay_m.max()],
     mapbox_style="carto-positron",
     center={"lat": 51.1657, "lon": 10.4515},
