@@ -65,9 +65,9 @@ fig0 = px.bar(
 
 #2nd graph
 fig1 = px.bar(
-    filtered_data.sort_values(by="departure_delay_m", ascending=False).head(16),
+    filtered_data.sort_values(by="delay_cnt/departure", ascending=False).head(16),
     y="state", 
-    x="departure_delay_m",
+    x="delay_cnt/departure",
     color="state",
     title=f"Top 16 States by delays/departure %",
     height=350,
@@ -83,7 +83,7 @@ col2, col3 = st.columns(2)
 
 #3rd graph
 fig2 = px.bar(
-    filtered_data.sort_values(by="delay_m/departure", ascending=False).head(16),
+    filtered_data.sort_values(by="delay_cnt/departure", ascending=False).head(16),
     y="state", 
     x="delay_m/departure",
     color="state",
@@ -96,11 +96,11 @@ fig2 = px.bar(
 
 #4th graph
 fig3 = px.bar(
-    filtered_data.sort_values(by="delay_m/delay_cnt", ascending=False).head(16),
+    filtered_data.sort_values(by="departure_plan", ascending=False).head(16),
     y="state", 
-    x="delay_m/delay_cnt",
+    x="departure_plan",
     color="state",
-    title=f"Top 16 States by avg_minutes/delay",
+    title=f"Top 16 States by departures",
     height=350,
 )
 
