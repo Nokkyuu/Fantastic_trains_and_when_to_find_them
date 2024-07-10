@@ -264,7 +264,7 @@ with tab2:
             y="name", 
             x=column_selection,
             color="name",
-            title=f"Top 16 Cities in {selected_state} by {column_selection.replace('_', ' ').capitalize()}",
+            title=f"Top 16 Stations in {selected_state} by {column_selection.replace('_', ' ').capitalize()}",
             height=350,
         )
 
@@ -274,7 +274,7 @@ with tab2:
             y="name", 
             x="delay_cnt/departure",
             color="name",
-            title=f"Top 16 Cities in {selected_state} by delays/departure %",
+            title=f"Top 16 Stations in {selected_state} by delays/departure %",
             height=350,
         )
     else:
@@ -314,7 +314,7 @@ with tab2:
             y="name", 
             x="delay_m/departure",
             color="name",
-            title=f"Top 16 Cities in {selected_state} by delay_m/departure",
+            title=f"Top 16 Stations in {selected_state} by delay_m/departure",
             height=350,
         )
 
@@ -324,7 +324,7 @@ with tab2:
             y="name", 
             x="delay_m/delay_cnt",
             color="name",
-            title=f"Top 16 Cities in {selected_state} by departures",
+            title=f"Top 16 Stations in {selected_state} by departures",
             height=350,
         )
     else:
