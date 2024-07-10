@@ -207,6 +207,7 @@ with tab1:
     st.plotly_chart(fig6)    
 
 
+    st.markdown("---")
 
 
     # Function to plot datetime
@@ -235,6 +236,8 @@ with tab1:
         # Plot for the selected state
         df_temp = df2[df2['state'] == states]  # Filter the dataframe for the selected state
         plot_data(df_temp, states)
+
+    st.markdown("---")
 
 
     st.subheader("25% best and 25% worst stations hourly observation Germany")
@@ -351,11 +354,11 @@ with tab2:
         st.plotly_chart(fig3)
 
 
-
+    st.markdown("---")
 
     
     # Heatmap with mean delays
-    #st.subheader("Map of Germany")
+    st.subheader("Departure Delays Mean Heatmap")
     fig5 = px.density_mapbox(
         heatmap_df2,
         lat='lat',
@@ -367,7 +370,6 @@ with tab2:
         mapbox_style="carto-positron",
         center={"lat": 51.1657, "lon": 10.4515},
         zoom=4.5,
-        title="Departure Delays Mean Heatmap",
         color_continuous_scale="Magma",
         height=456
     )
