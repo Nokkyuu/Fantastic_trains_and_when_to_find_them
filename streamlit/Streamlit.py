@@ -5,6 +5,11 @@ import plotly.express as px
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
+from datetime import date, time, datetime
+from IPython import display
+import os
+
+
 
 # Page config
 st.set_page_config(
@@ -48,49 +53,152 @@ df_city["delay_m/delay_cnt"] = df_city["departure_delay_m"] / df_city["departure
 df_city["delay_cnt/departure"] = (df_city["departure_delay_check"] / df_city["departure_plan"]) * 100
 
 
-#Logo
+
+
+
+#datetime
+df2 = df.copy()
+
+date_format = "%Y-%m-%d %H:%M:%S"
+df2["arrival_plan"] = pd.to_datetime(df2["arrival_plan"], format=date_format)
+df2["departure_plan"] = pd.to_datetime(df2["departure_plan"], format=date_format)
+df2["arrival_change"] = pd.to_datetime(df2["arrival_change"], format=date_format)
+df2["departure_change"] = pd.to_datetime(df2["departure_change"], format=date_format)
+
+df2["arrival_plan_time"] = df2["arrival_plan"].dt.time
+df2["arrival_plan_date"] = df2["arrival_plan"].dt.date
+
+df2["departure_plan_time"] = df2["departure_plan"].dt.time
+df2["departure_plan_date"] = df2["departure_plan"].dt.date
+
+
+
+
+
 #Logo
 ICON_RED = "https://preview.redd.it/deutsche-bahn-logo-bauen-r-place-v0-60xms5wt0ddb1.png?width=814&format=png&auto=webp&s=c634c8b94115358ab48c2913ef349afe63d4671d"
 st.logo(ICON_RED, icon_image=ICON_RED)
 
 
+#Button to our Github
+st.link_button("Github :sunglasses:", "https://streamlit.io/gallery")
+st.subheader("DB Delay Dashboard")
+
+
 
 # Sidebar filters
 with st.sidebar:
-    st.title("DB Delay Dashboard")
-    st.sidebar.header("Bar Filters")
+    st.sidebar.header("Filters")
 
-    column_selection = st.sidebar.selectbox("Select Measure", options=["departure_plan", "departure_delay_check", "delay_cnt/departure"])
+    column_selection = st.sidebar.selectbox("Select Measure", options=["delay_cnt/departure", "departure_plan", "departure_delay_check"])
 
     all_states_option = "All"
     states = st.sidebar.selectbox("State", [all_states_option] + list(df_state['state'].unique()), index=0)
 
-# Summary metrics + button
-st.markdown("### Summary Metrics")
-total_delays = df['departure_delay_check'].count()
-average_delay = df['departure_delay_m'].mean()
-num_delayed_departures = df[df['departure_delay_check'] == 'delay']['departure_delay_check'].count()
 
-metric_col1, metric_col2, metric_col3, button_col = st.columns(4)
-with metric_col1:
-    st.metric(label="Total Delays", value=total_delays)
 
-with metric_col2:
-    st.metric(label="Average Delay Time", value=f"{average_delay:.2f} min")
 
-with metric_col3:
-    st.metric(label="Number of Delayed Departures", value=num_delayed_departures)
-
-with button_col:
-    st.link_button("Github :sunglasses:", "https://streamlit.io/gallery")
 
 #making tabs
-tab0, tab1, tab2 = st.tabs(["Home","Barcharts", "Maps"])
+tab0, tab1, tab2 = st.tabs(["Introduction","Temporal", "Geographical"])
 
-#with tab0:
+
+
+
+with tab0:
+    # Filter data based on selections
+    if states == all_states_option:
+        filtered_df = df.copy()  # Select all data
+    else:
+        filtered_df = df[df['state'] == states]  # Filter data based on selected state
+
+    # Summary metrics
+    if states == all_states_option:
+        st.markdown("### Summary Metrics for All States")
+    else:
+        st.markdown(f"### Summary Metrics for {states}")
+
+    total_delays = filtered_df['departure_delay_check'].count()
+    average_delay = filtered_df['departure_delay_m'].mean()
+    num_delayed_departures = filtered_df[filtered_df['departure_delay_check'] == 'delay']['departure_delay_check'].count()
+    
+
+    metric_col1, metric_col2, metric_col3 = st.columns(3)
+    with metric_col1:
+        st.metric(label="Total Delays", value=total_delays)
+
+    with metric_col2:
+        st.metric(label="Average Delay Time", value=f"{average_delay:.2f} min")
+
+    with metric_col3:
+        st.metric(label="Number of Delayed Departures", value=num_delayed_departures)
+
+
+
+
+
 
 
 with tab1:
+    st.subheader("Departure Delays Over Time")
+    fig6 = px.density_mapbox(
+        heatmap_df2,
+        lat='lat',
+        lon='long',
+        z='departure_delay_m',
+        hover_name='name',
+        radius=15,
+        range_color=[0, heatmap_df2.departure_delay_m.max()],
+        mapbox_style="carto-positron",
+        center={"lat": 51.1657, "lon": 10.4515},
+        zoom=4.5,
+        animation_frame="departure_plan_datetime",
+        color_continuous_scale=px.colors.sequential.Inferno,
+        height=600
+    )
+    fig6.update_layout(
+        margin={"r": 0, "t": 40, "l": 0, "b": 0},
+        coloraxis_showscale=False
+    )
+    st.plotly_chart(fig6)    
+
+
+
+
+    # Function to plot datetime
+    st.subheader("Mean Delay over several days")
+    def plot_data(df_temp, state):
+        fig, axes = plt.subplots(1, 1, figsize=(12, 4), constrained_layout=True)
+        df_temp.set_index('departure_plan', inplace=True)
+        numeric_cols = df_temp.select_dtypes(include=['float64', 'int64'])
+        hourly_data = numeric_cols.resample('h').mean()
+
+        sns.lineplot(data=hourly_data, x=hourly_data.index, y="departure_delay_m", ax=axes)
+        axes.set_xlabel("")
+        axes.set_ylabel("Delay Mean")
+        axes.tick_params(axis='x', rotation=90)
+
+        fig.suptitle(state, fontsize=16)
+        st.pyplot(fig)
+
+    # Plotting the data based on selection
+    if states == all_states_option:
+        # Plot for all states
+        df_temp = df2.copy()  # Use the original dataframe for all states
+        plot_data(df_temp, "All States")
+    else:
+        # Plot for the selected state
+        df_temp = df2[df2['state'] == states]  # Filter the dataframe for the selected state
+        plot_data(df_temp, states)
+
+
+    st.subheader("25% best and worst stations over 1 day")
+    
+
+
+# Tab2
+
+with tab2:
     # Filter data based on selections
     if states == all_states_option:
         filtered_data = df_state.copy()  # Select all states, so no filtering needed
@@ -136,9 +244,9 @@ with tab1:
         fig1 = px.bar(
             filtered_data.sort_values(by="delay_cnt/departure", ascending=False).head(16),
             y="state", 
-            x="delay_cnt/departure",
+            x="delay_m/departure",
             color="state",
-            title=f"Top 16 States by delays/departure %",
+            title=f"Top 16 States by delay_m/departure",
             height=350,
         )
 
@@ -166,7 +274,7 @@ with tab1:
         fig3 = px.bar(
             state_filtered_data.sort_values(by="departure_plan", ascending=False).head(16),
             y="name", 
-            x="departure_plan",
+            x="delay_m/delay_cnt",
             color="name",
             title=f"Top 16 Cities in {selected_state} by departures",
             height=350,
@@ -176,9 +284,9 @@ with tab1:
         fig2 = px.bar(
             filtered_data.sort_values(by="delay_cnt/departure", ascending=False).head(16),
             y="state", 
-            x="delay_m/departure",
+            x="delay_m/delay_cnt",
             color="state",
-            title=f"Top 16 States by delay_m/departure",
+            title=f"Top 16 States by delay_m/delay_cnt",
             height=350,
         )
 
@@ -197,9 +305,10 @@ with tab1:
     with col3:
         st.plotly_chart(fig3)
 
-# Adding tabs for maps
 
-with tab2:
+
+
+    
     # Heatmap with mean delays
     #st.subheader("Map of Germany")
     fig5 = px.density_mapbox(
@@ -221,41 +330,11 @@ with tab2:
         margin={"r": 0, "t": 40, "l": 0, "b": 0},
         coloraxis_showscale=True,
     )
-    #st.plotly_chart(fig2)
+    st.plotly_chart(fig5)
 
 
 
-    # Heatmap with timeseries
-    fig6 = px.density_mapbox(
-        heatmap_df2,
-        lat='lat',
-        lon='long',
-        z='departure_delay_m',
-        hover_name='name',
-        radius=15,
-        range_color=[0, heatmap_df2.departure_delay_m.max()],
-        mapbox_style="carto-positron",
-        center={"lat": 51.1657, "lon": 10.4515},
-        zoom=4.5,
-        title="Departure Delays Over Time",
-        animation_frame="departure_plan_datetime",
-        color_continuous_scale=px.colors.sequential.Inferno,
-        height=600
-    )
-    fig6.update_layout(
-        margin={"r": 0, "t": 40, "l": 0, "b": 0},
-        coloraxis_showscale=False
-    )
-    #st.plotly_chart(fig1)
 
-
-    #adding columns to show graphs side by side
-    col5, col6 = st.columns(2)
-
-    # Display the graphs in the columns
-    with col5:
-        st.plotly_chart(fig6)
-
-    with col6:
-        st.plotly_chart(fig5)
+ 
+  
 
