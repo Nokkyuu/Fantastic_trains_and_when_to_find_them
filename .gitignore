@@ -165,3 +165,5 @@ notes.md
 data/ML/
 data/fromAPI/cleaned_hourly_all2.csv
 data/fromAPI/combined_data.csv
+.api
+api.txt
