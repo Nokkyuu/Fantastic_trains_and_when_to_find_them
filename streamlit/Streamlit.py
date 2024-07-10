@@ -24,7 +24,7 @@ st.set_page_config(
 # Load data
 heatmap_df2 = pd.read_csv("data/heatmap.csv")
 df_states = pd.read_csv("data/statedelay.csv")
-df = pd.read_csv("data/fromAPI/cleaned_hourly_all2.csv")
+df = pd.read_csv("data/fromAPI/streamlit.csv")
 
 # States processing
 df_state_count_delay3 = df[df["departure_delay_check"] == "delay"].groupby(["state"], as_index=False).count()
