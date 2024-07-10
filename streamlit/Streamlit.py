@@ -80,20 +80,25 @@ ICON_RED = "https://preview.redd.it/deutsche-bahn-logo-bauen-r-place-v0-60xms5wt
 st.logo(ICON_RED, icon_image=ICON_RED)
 
 
+
 #Button to our Github
-st.link_button("Github :sunglasses:", "https://streamlit.io/gallery")
-st.subheader("DB Delay Dashboard")
-
-
+col_head, col_pic = st.columns([5, 1])
+with col_head:
+    st.link_button("Github :sunglasses:", "https://streamlit.io/gallery")
+    st.subheader("DB Delay Dashboard")
+with col_pic:
+    st.image("streamlit/deutsche-bahn-logo-bauen-r-place-v0-60xms5wt0ddb1.png", use_column_width="auto")
 
 # Sidebar filters
 with st.sidebar:
     st.sidebar.header("Filters")
 
-    column_selection = st.sidebar.selectbox("Select Measure", options=["delay_cnt/departure", "departure_plan", "departure_delay_check"])
-
     all_states_option = "All"
-    states = st.sidebar.selectbox("State", [all_states_option] + list(df_state['state'].unique()), index=0)
+    states = st.sidebar.selectbox("Select State", [all_states_option] + list(df_state['state'].unique()), index=0)
+
+    column_selection = st.sidebar.selectbox("Select Measure(Geo)", options=["delay_cnt/departure", "departure_plan", "departure_delay_check"])
+
+   
 
 
 
@@ -118,21 +123,60 @@ with tab0:
     else:
         st.markdown(f"### Summary Metrics for {states}")
 
-    total_delays = filtered_df['departure_delay_check'].count()
+    #total_delays = filtered_df['departure_delay_check'].count()
+    total_delays = filtered_df[filtered_df['departure_delay_check'] == 'delay'].shape[0] + filtered_df[filtered_df['arrival_delay_check'] == 'delay'].shape[0]
+
     average_delay = filtered_df['departure_delay_m'].mean()
     num_delayed_departures = filtered_df[filtered_df['departure_delay_check'] == 'delay']['departure_delay_check'].count()
-    
 
+    total_departures = filtered_df['departure_plan'].count()
+    total_delay_minutes = filtered_df['arrival_delay_m'].sum() + filtered_df['departure_delay_m'].sum()
+    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_check'] == 'delay']['arrival_delay_check'].count()
+
+    # First row of metrics
     metric_col1, metric_col2, metric_col3 = st.columns(3)
     with metric_col1:
-        st.metric(label="Total Delays", value=total_delays)
-
+        st.metric(label="Total Number of Departures", value=total_departures)
     with metric_col2:
-        st.metric(label="Average Delay Time", value=f"{average_delay:.2f} min")
-
+        st.metric(label="Total Delay in Minutes", value=f"{total_delay_minutes} min")
     with metric_col3:
         st.metric(label="Number of Delayed Departures", value=num_delayed_departures)
 
+    # Second row of metrics
+    metric_col4, metric_col5, metric_col6 = st.columns(3)
+    with metric_col4:
+        st.metric(label="Total Delays", value=total_delays)
+    with metric_col5:
+        st.metric(label="Average Delay Time", value=f"{average_delay:.2f} min")
+    with metric_col6:
+        st.metric(label="Number of Delayed Arrivals", value=num_delayed_arrivals)
+
+
+
+
+    # Section for data source and additional information
+    st.markdown("---")
+    st.markdown("### Data Source and Additional Information")
+
+    st.markdown(
+        """
+        **Data Source**: The data for this dashboard is sourced from multiple datasets gathered via API from Deutsche Bahn.
+
+        **Processing**: Data was processed and cleaned to ensure accuracy and consistency. For detailed informationplease refer to our [GitHub repository](https://github.com/your-repo).
+
+        **Acknowledgments**: We would like to thank Deutsche Bahn and the open data community for providing the data and making this dashboard possible.
+        """
+    )
+
+    st.markdown(
+        """
+        **Developed by**: Michael Kampmann, Nils Ayral
+
+        **Version**: 1.0
+
+        **Last Updated**: July 2024
+        """
+    )
 
 
 
@@ -140,7 +184,7 @@ with tab0:
 
 
 with tab1:
-    st.subheader("Departure Delays Over Time")
+    st.subheader("Departure Delays over Time")
     fig6 = px.density_mapbox(
         heatmap_df2,
         lat='lat',
@@ -166,7 +210,8 @@ with tab1:
 
 
     # Function to plot datetime
-    st.subheader("Mean Delay over several days")
+    st.subheader("Mean Delay over Time")
+    st.text("Search for periodic patterns")
     def plot_data(df_temp, state):
         fig, axes = plt.subplots(1, 1, figsize=(12, 4), constrained_layout=True)
         df_temp.set_index('departure_plan', inplace=True)
@@ -192,8 +237,8 @@ with tab1:
         plot_data(df_temp, states)
 
 
-    st.subheader("25% best and worst stations over 1 day")
-    
+    st.subheader("25% best and 25% worst stations hourly observation Germany")
+    st.image("streamlit/bestworststat.png")
 
 
 # Tab2
