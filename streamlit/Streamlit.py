@@ -84,7 +84,7 @@ st.logo(ICON_RED, icon_image=ICON_RED)
 #Button to our Github
 col_head, col_pic = st.columns([5, 1])
 with col_head:
-    st.link_button("Github :sunglasses:", "https://streamlit.io/gallery")
+    st.link_button("Github :sunglasses:", "https://github.com/Nokkyuu/Fantastic_trains_and_where_to_find_them")
     st.subheader("DB Delay Dashboard")
 with col_pic:
     st.image("streamlit/deutsche-bahn-logo-bauen-r-place-v0-60xms5wt0ddb1.png", use_column_width="auto")
@@ -127,29 +127,29 @@ with tab0:
     total_delays = filtered_df[filtered_df['departure_delay_check'] == 'delay'].shape[0] + filtered_df[filtered_df['arrival_delay_check'] == 'delay'].shape[0]
 
     average_delay = filtered_df['departure_delay_m'].mean()
-    num_delayed_departures = filtered_df[filtered_df['departure_delay_check'] == 'delay']['departure_delay_check'].count()
+    num_delayed_departures = filtered_df[filtered_df['departure_delay_check'] == 'delay']['departure_delay_check'].count() 
 
-    total_departures = filtered_df['departure_plan'].count()
-    total_delay_minutes = filtered_df['arrival_delay_m'].sum() + filtered_df['departure_delay_m'].sum()
-    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_check'] == 'delay']['arrival_delay_check'].count()
+    total_departures = filtered_df['departure_plan'].count() 
+    total_delay_minutes = filtered_df['arrival_delay_m'].sum() + filtered_df['departure_delay_m'].sum() 
+    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_check'] == 'delay']['arrival_delay_check'].count() 
 
     # First row of metrics
     metric_col1, metric_col2, metric_col3 = st.columns(3)
     with metric_col1:
-        st.metric(label="Total Number of Departures", value=total_departures)
+        st.metric(label="Total Number of Departures", value=total_departures * 5)
     with metric_col2:
-        st.metric(label="Total Delay in Minutes", value=f"{total_delay_minutes} min")
+        st.metric(label="Total Delay in Minutes", value=f"{total_delay_minutes * 5} min")
     with metric_col3:
-        st.metric(label="Number of Delayed Departures", value=num_delayed_departures)
+        st.metric(label="Number of Delayed Departures", value=num_delayed_departures * 5)
 
     # Second row of metrics
     metric_col4, metric_col5, metric_col6 = st.columns(3)
     with metric_col4:
-        st.metric(label="Total Delays", value=total_delays)
+        st.metric(label="Total Delays", value=total_delays * 5)
     with metric_col5:
         st.metric(label="Average Delay Time", value=f"{average_delay:.2f} min")
     with metric_col6:
-        st.metric(label="Number of Delayed Arrivals", value=num_delayed_arrivals)
+        st.metric(label="Number of Delayed Arrivals", value=num_delayed_arrivals * 5)
 
 
 
@@ -162,7 +162,7 @@ with tab0:
         """
         **Data Source**: The data for this dashboard is sourced from multiple datasets gathered via API from Deutsche Bahn.
 
-        **Processing**: Data was processed and cleaned to ensure accuracy and consistency. For detailed informationplease refer to our [GitHub repository](https://github.com/your-repo).
+        **Processing**: Data was processed and cleaned to ensure accuracy and consistency. For detailed information please refer to our [GitHub repository](https://github.com/Nokkyuu/Fantastic_trains_and_where_to_find_them).
 
         **Acknowledgments**: We would like to thank Deutsche Bahn and the open data community for providing the data and making this dashboard possible.
         """
