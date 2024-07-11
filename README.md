@@ -1,4 +1,7 @@
 # Overview
+The analyses presented here were based on real, measured data as part of a two-week final project at a data scientist/data analyst boot camp.<br>
+The overarching goal was to identify systemic problems in the infrastructure of the DB rail network.<br>
+Below is a list and description of the scripts, notebooks, methods and data used as well as the links to the result presentation and dashboard.
 
 ## Data
 
