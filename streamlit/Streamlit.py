@@ -96,7 +96,7 @@ with st.sidebar:
     all_states_option = "All"
     states = st.sidebar.selectbox("Select State", [all_states_option] + list(df_state['state'].unique()), index=0)
 
-    column_selection = st.sidebar.selectbox("Sort By (Geo)", options=["departure_plan", "delay_cnt/departure",  "delay_m/delay_cnt"])
+    column_selection = st.sidebar.selectbox("Sort By (Geo)", options=["departure_plan", "delay_cnt/departure", "delay_m/delay_cnt", "delay_m/departure"])
 
    
 
@@ -267,7 +267,7 @@ with tab2:
             x="departure_plan",
             color="name",
             title=f"Number of Departure Events",
-            height=350,
+            height=450,
             labels={"departure_plan" : "# of departures planned", "name" : "station"}
         )
         #fig0.update(layout_showlegend=False)
@@ -278,7 +278,7 @@ with tab2:
             x="delay_cnt/departure",
             color="name",
             title=f"% of delays per departure",
-            height=350,
+            height=450,
             labels={"delay_cnt/departure" : "% of delays form departures", "name" : "station"}
         )
         #fig1.update(layout_showlegend=False)
@@ -288,10 +288,18 @@ with tab2:
             x="delay_m/delay_cnt",
             color="name",
             title=f"Average Delay Length per Delay",
-            height=350,
+            height=450,
             labels={"delay_m/delay_cnt" : "Avg. delay length (m)", "name" : "station"}
         )
-        
+        fig3 = px.bar(
+            state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
+            y="name", 
+            x="delay_m/departure",
+            color="name",
+            title=f"Average Delay Length per Departure",
+            height=450,
+            labels={"delay_m/departure" : "Lenght of Delay/Departure (m)"}
+        )
 
     else:
         fig0 = px.bar(
@@ -300,7 +308,7 @@ with tab2:
             x="departure_plan",
             color="state",
             title=f"Number of Departure Events",
-            height=350,
+            height=450,
             labels={"departure_plan" : "# of departures planned"}
         )
         # 2nd graph for cities within the selected state
@@ -310,7 +318,7 @@ with tab2:
             x="delay_cnt/departure",
             color="state",
             title=f"% of delays from departures",
-            height=350,
+            height=450,
             labels={"delay_cnt/departure" : "% of delays form departures"}
         )
         fig2 = px.bar(
@@ -319,15 +327,26 @@ with tab2:
             x="delay_m/delay_cnt",
             color="state",
             title=f"Average Delay Length per Delay",
-            height=350,
-            labels={"delay_m/delay_cnt" : "Avg. delay length (m)"}
+            height=450,
+            labels={"delay_m/delay_cnt" : "Length of Delay/Delay (m)"}
+        )
+        fig3 = px.bar(
+            filtered_data.sort_values(by=column_selection, ascending=False).head(16),
+            y="state", 
+            x="delay_m/departure",
+            color="state",
+            title=f"Average Delay Length per Departure",
+            height=450,
+            labels={"delay_m/departure" : "Lenght of Delay/Departure (m)"}
         )
     fig1.update_yaxes(visible=False, showticklabels=False)
     fig2.update_yaxes(visible=False, showticklabels=False)
+    fig3.update_yaxes(visible=False, showticklabels=False)
     fig0.update(layout_showlegend=False)
     fig1.update(layout_showlegend=False)
     fig2.update(layout_showlegend=False)
-    col0, col1, col2 = st.columns(3)
+    fig3.update(layout_showlegend=False)
+    col0, col1, col2, col3 = st.columns(4)
 
     with col0:
         st.plotly_chart(fig0)
@@ -335,6 +354,8 @@ with tab2:
         st.plotly_chart(fig1)
     with col2:
         st.plotly_chart(fig2)
+    with col3:
+        st.plotly_chart(fig3)
 
     # {col2, col3 = st.columns(2)
 
