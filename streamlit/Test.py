@@ -24,7 +24,7 @@ st.set_page_config(
 # Load data
 heatmap_df2 = pd.read_csv("data/heatmap.csv")
 df_states = pd.read_csv("data/statedelay.csv")
-df = pd.read_csv("data/fromAPI/cleaned_hourly_all2.csv")
+df = pd.read_csv("data/fromAPI/streamlit.csv")
 
 # States processing
 df_state_count_delay3 = df[df["departure_delay_check"] == "delay"].groupby(["state"], as_index=False).count()
@@ -124,32 +124,34 @@ with tab0:
         st.markdown(f"### Summary Metrics for {states}")
 
     #total_delays = filtered_df['departure_delay_check'].count()
-    total_delays = filtered_df[filtered_df['departure_delay_check'] == 'delay'].shape[0] + filtered_df[filtered_df['arrival_delay_check'] == 'delay'].shape[0]
+    #total_delays = filtered_df[(filtered_df["departure_delay_m"] > 0) | (filtered_df["arrival_delay_m"] > 0)].shape[0]
 
     average_delay = filtered_df['departure_delay_m'].mean()
-    num_delayed_departures = filtered_df[filtered_df['departure_delay_check'] == 'delay']['departure_delay_check'].count()
+    num_delayed_departures = filtered_df[filtered_df['departure_delay_m'] > 0]['departure_delay_m'].count() 
 
-    total_departures = filtered_df['departure_plan'].count()
-    total_delay_minutes = filtered_df['arrival_delay_m'].sum() + filtered_df['departure_delay_m'].sum()
-    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_check'] == 'delay']['arrival_delay_check'].count()
+    total_departures = filtered_df['departure_plan'].count() 
+    total_delay_minutes = filtered_df['arrival_delay_m'].sum() + filtered_df['departure_delay_m'].sum() 
+    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_m'] > 0]['arrival_delay_m'].count() 
+
+    total_delays = num_delayed_arrivals + num_delayed_departures
 
     # First row of metrics
     metric_col1, metric_col2, metric_col3 = st.columns(3)
     with metric_col1:
-        st.metric(label="Total Number of Departures", value=total_departures)
+        st.metric(label="Total Number of Departures", value=total_departures * 5)
     with metric_col2:
-        st.metric(label="Total Delay in Minutes", value=f"{total_delay_minutes} min")
+        st.metric(label="Total Delay in Minutes", value=f"{total_delay_minutes * 5} min")
     with metric_col3:
-        st.metric(label="Number of Delayed Departures", value=num_delayed_departures)
+        st.metric(label="Number of Delayed Departures", value=num_delayed_departures * 5)
 
     # Second row of metrics
     metric_col4, metric_col5, metric_col6 = st.columns(3)
     with metric_col4:
-        st.metric(label="Total Delays", value=total_delays)
+        st.metric(label="Total Delays", value=total_delays * 5)
     with metric_col5:
         st.metric(label="Average Delay Time", value=f"{average_delay:.2f} min")
     with metric_col6:
-        st.metric(label="Number of Delayed Arrivals", value=num_delayed_arrivals)
+        st.metric(label="Number of Delayed Arrivals", value=num_delayed_arrivals * 5)
 
 
 
