@@ -12,11 +12,14 @@ For detailed description of the features available in the datasets please look i
     - so_me: data from social media messages regarding DB from Kaggle
     - train_stops: trainstop data from Kaggle
 3) EDA: <br>Contains notebooks regarding the exploratory data analysis part of the different datasets
-    - [Comparison regarding the station categories -> leaving out 6-7](/Users/mnykth/Documents/fullstack_greenbootcamps/Final_Project_Ideas/SavingDB/EDA/data_collecting_comparison.ipynb)
-    - [EDA Stations and Paths](/Users/mnykth/Documents/fullstack_greenbootcamps/Final_Project_Ideas/SavingDB/EDA/EDA_Stations_Paths.ipynb)
-    - [EDA General data -> states in depth](/Users/mnykth/Documents/fullstack_greenbootcamps/Final_Project_Ideas/SavingDB/EDA/eda_general_data.ipynb)<br>
-4) XML-Analysis: <br>Folder contains files and scipts for the process to make sense out of the rather complicated output from the Timetable API to single out what we would need from it
-
+    - [Comparison regarding the station categories](EDA/01_data_collecting_comparison.ipynb)
+    - [Temporal Analysis](EDA/02_temporal_analysis.ipynb)
+    - [Geographical Analysis](EDA/03_geographical_analysis.ipynb)<br>
+4) ML: <br> Notebooks about the feature creation and Time Series Analysis
+    - [Feature Creation](ML/ML_feature_creation_stations_class.ipynb)
+    - [Time Series](ML/Time_Series.ipynb)
+5) Streamlit: <br> Contains every element for the custom Dashboard
+    - [Streamlit Dashboard](streamlit/Streamlit.py)
 ## Stakeholder
 `Deutsche Bahn`
 
