@@ -268,7 +268,9 @@ with tab2:
             color="name",
             title=f"Number of Departure Events",
             height=350,
+            labels={"departure_plan" : "# of departures planned", "name" : "station"}
         )
+        #fig0.update(layout_showlegend=False)
         # 2nd graph for cities within the selected state
         fig1 = px.bar(
             state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
@@ -277,7 +279,9 @@ with tab2:
             color="name",
             title=f"% of delays per departure",
             height=350,
+            labels={"delay_cnt/departure" : "% of delays form departures", "name" : "station"}
         )
+        #fig1.update(layout_showlegend=False)
         fig2 = px.bar(
             state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
             y="name", 
@@ -285,7 +289,9 @@ with tab2:
             color="name",
             title=f"Average Delay Length per Delay",
             height=350,
+            labels={"delay_m/delay_cnt" : "Avg. delay length (m)", "name" : "station"}
         )
+        
 
     else:
         fig0 = px.bar(
@@ -295,6 +301,7 @@ with tab2:
             color="state",
             title=f"Number of Departure Events",
             height=350,
+            labels={"departure_plan" : "# of departures planned"}
         )
         # 2nd graph for cities within the selected state
         fig1 = px.bar(
@@ -302,8 +309,9 @@ with tab2:
             y="state", 
             x="delay_cnt/departure",
             color="state",
-            title=f"% of delays per departure",
+            title=f"% of delays from departures",
             height=350,
+            labels={"delay_cnt/departure" : "% of delays form departures"}
         )
         fig2 = px.bar(
             filtered_data.sort_values(by=column_selection, ascending=False).head(16),
@@ -312,7 +320,13 @@ with tab2:
             color="state",
             title=f"Average Delay Length per Delay",
             height=350,
+            labels={"delay_m/delay_cnt" : "Avg. delay length (m)"}
         )
+    fig1.update_yaxes(visible=False, showticklabels=False)
+    fig2.update_yaxes(visible=False, showticklabels=False)
+    fig0.update(layout_showlegend=False)
+    fig1.update(layout_showlegend=False)
+    fig2.update(layout_showlegend=False)
     col0, col1, col2 = st.columns(3)
 
     with col0:
