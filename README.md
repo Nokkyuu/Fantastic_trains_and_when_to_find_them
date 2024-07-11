@@ -1,4 +1,7 @@
 # Overview
+The analyses presented here were based on real, measured data as part of a two-week final project at a data scientist/data analyst boot camp.<br>
+The overarching goal was to identify systemic problems in the infrastructure of the DB rail network.<br>
+Below is a list and description of the scripts, notebooks, methods and data used as well as the links to the result presentation and dashboard.
 
 ## Data
 
@@ -18,9 +21,10 @@ For detailed description of the features available in the datasets please look i
 4) ML: <br> Notebooks about the feature creation and Time Series Analysis
     - [Feature Creation](ML/ML_feature_creation_stations_class.ipynb)
     - [Time Series](ML/Time_Series.ipynb)
-5) Streamlit: <br> Contains every element for the custom Dashboard
+5) PPT: <br> Presentation for this Repo.
+    - [PPT]()
+6) Streamlit: <br> Contains every element for the custom Dashboard
     - [Streamlit Dashboard](streamlit/Streamlit.py)
-## Stakeholder
-`Deutsche Bahn`
+
 
 

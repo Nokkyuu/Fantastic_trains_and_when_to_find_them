@@ -124,14 +124,16 @@ with tab0:
         st.markdown(f"### Summary Metrics for {states}")
 
     #total_delays = filtered_df['departure_delay_check'].count()
-    total_delays = filtered_df[filtered_df['departure_delay_check'] == 'delay'].shape[0] + filtered_df[filtered_df['arrival_delay_check'] == 'delay'].shape[0]
+    #total_delays = filtered_df[(filtered_df["departure_delay_m"] > 0) | (filtered_df["arrival_delay_m"] > 0)].shape[0]
 
     average_delay = filtered_df['departure_delay_m'].mean()
-    num_delayed_departures = filtered_df[filtered_df['departure_delay_check'] == 'delay']['departure_delay_check'].count() 
+    num_delayed_departures = filtered_df[filtered_df['departure_delay_m'] > 0]['departure_delay_m'].count() 
 
     total_departures = filtered_df['departure_plan'].count() 
     total_delay_minutes = filtered_df['arrival_delay_m'].sum() + filtered_df['departure_delay_m'].sum() 
-    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_check'] == 'delay']['arrival_delay_check'].count() 
+    num_delayed_arrivals = filtered_df[filtered_df['arrival_delay_m'] > 0]['arrival_delay_m'].count() 
+
+    total_delays = num_delayed_arrivals + num_delayed_departures
 
     # First row of metrics
     metric_col1, metric_col2, metric_col3 = st.columns(3)
