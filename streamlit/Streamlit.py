@@ -241,7 +241,7 @@ with tab1:
     st.markdown("---")
 
 
-    st.subheader("25% best and 25% worst stations hourly observation Germany")
+    st.subheader("distribution of departure events in the 25% best and 25% worst stations during 1 hour")
     st.image("streamlit/bestworststat.png")
 
 
