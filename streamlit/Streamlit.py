@@ -279,7 +279,7 @@ with tab2:
             color="name",
             title=f"% of delays per departure",
             height=450,
-            labels={"delay_cnt/departure" : "% of delays form departures", "name" : "station"}
+            labels={"delay_cnt/departure" : "% of delays from departures", "name" : "station"}
         )
         #fig1.update(layout_showlegend=False)
         fig2 = px.bar(
@@ -298,7 +298,7 @@ with tab2:
             color="name",
             title=f"Average Delay Length per Departure",
             height=450,
-            labels={"delay_m/departure" : "Lenght of Delay/Departure (m)"}
+            labels={"delay_m/departure" : "Length of Delay/Departure (m)"}
         )
 
     else:
@@ -319,7 +319,7 @@ with tab2:
             color="state",
             title=f"% of delays from departures",
             height=450,
-            labels={"delay_cnt/departure" : "% of delays form departures"}
+            labels={"delay_cnt/departure" : "% of delays from departures"}
         )
         fig2 = px.bar(
             filtered_data.sort_values(by=column_selection, ascending=False).head(16),
@@ -337,7 +337,7 @@ with tab2:
             color="state",
             title=f"Average Delay Length per Departure",
             height=450,
-            labels={"delay_m/departure" : "Lenght of Delay/Departure (m)"}
+            labels={"delay_m/departure" : "Length of Delay/Departure (m)"}
         )
     fig1.update_yaxes(visible=False, showticklabels=False)
     fig2.update_yaxes(visible=False, showticklabels=False)
