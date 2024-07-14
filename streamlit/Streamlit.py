@@ -40,13 +40,13 @@ df_state["delay_m/delay_cnt"] = df_state["departure_delay_m"] / df_state["depart
 df_state["delay_cnt/departure"] = (df_state["departure_delay_check"] / df_state["departure_plan"]) * 100
 
 # Cities processing
-df_city_count_delay3 = df[df["departure_delay_check"] == "delay"].groupby(["name", "state"], as_index=False).count()
-df_city_count3 = df.groupby(["name", "state"], as_index=False).count()
-df_city_sum3 = df[df["departure_delay_check"] == "delay"].groupby(["name", "state"], as_index=False).sum("departure_delay_m")
+df_city_count_delay3 = df[df["departure_delay_check"] == "delay"].groupby(["station", "state"], as_index=False).count()
+df_city_count3 = df.groupby(["station", "state"], as_index=False).count()
+df_city_sum3 = df[df["departure_delay_check"] == "delay"].groupby(["station", "state"], as_index=False).sum("departure_delay_m")
 
 # Merging city data
-df_city = pd.merge(df_city_sum3, df_city_count3[["name", "state", "departure_plan"]], how='left', on=["name", "state"], suffixes=('', '_count'))
-df_city = pd.merge(df_city, df_city_count_delay3[["name", "state", "departure_delay_check"]], how='left', on=["name", "state"], suffixes=('', '_count'))
+df_city = pd.merge(df_city_sum3, df_city_count3[["station", "state", "departure_plan"]], how='left', on=["station", "state"], suffixes=('', '_count'))
+df_city = pd.merge(df_city, df_city_count_delay3[["station", "state", "departure_delay_check"]], how='left', on=["station", "state"], suffixes=('', '_count'))
 
 df_city["delay_m/departure"] = df_city["departure_delay_m"] / df_city["departure_plan"]
 df_city["delay_m/delay_cnt"] = df_city["departure_delay_m"] / df_city["departure_delay_check"]
@@ -191,7 +191,7 @@ with tab1:
         lat='lat',
         lon='long',
         z='departure_delay_m',
-        hover_name='name',
+        hover_name="station",
         radius=15,
         range_color=[0, heatmap_df2.departure_delay_m.max()],
         mapbox_style="carto-positron",
@@ -241,7 +241,7 @@ with tab1:
     st.markdown("---")
 
 
-    st.subheader("25% best and 25% worst stations hourly observation Germany")
+    st.subheader("distribution of departure events in the 25% best and 25% worst stations during 1 hour")
     st.image("streamlit/bestworststat.png")
 
 
@@ -263,39 +263,39 @@ with tab2:
         # 1st graph for cities within the selected state
         fig0 = px.bar(
             state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
-            y="name", 
+            y="station", 
             x="departure_plan",
-            color="name",
+            color="station",
             title=f"Number of Departure Events",
             height=450,
-            labels={"departure_plan" : "# of departures planned", "name" : "station"}
+            labels={"departure_plan" : "# of departures planned", "station" : "station"}
         )
         #fig0.update(layout_showlegend=False)
         # 2nd graph for cities within the selected state
         fig1 = px.bar(
             state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
-            y="name", 
+            y="station", 
             x="delay_cnt/departure",
-            color="name",
+            color="station",
             title=f"% of delays per departure",
             height=450,
-            labels={"delay_cnt/departure" : "% of delays from departures", "name" : "station"}
+            labels={"delay_cnt/departure" : "% of delays from departures", "station" : "station"}
         )
         #fig1.update(layout_showlegend=False)
         fig2 = px.bar(
             state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
-            y="name", 
+            y="station", 
             x="delay_m/delay_cnt",
-            color="name",
+            color="station",
             title=f"Average Delay Length per Delay",
             height=450,
-            labels={"delay_m/delay_cnt" : "Avg. delay length (m)", "name" : "station"}
+            labels={"delay_m/delay_cnt" : "Avg. delay length (m)", "station" : "station"}
         )
         fig3 = px.bar(
             state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
-            y="name", 
+            y="station", 
             x="delay_m/departure",
-            color="name",
+            color="station",
             title=f"Average Delay Length per Departure",
             height=450,
             labels={"delay_m/departure" : "Length of Delay/Departure (m)"}
@@ -363,9 +363,9 @@ with tab2:
     #     # 3rd graph for cities within the selected state
     #     fig2 = px.bar(
     #         state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
-    #         y="name", 
+    #         y="station", 
     #         x="delay_m/departure",
-    #         color="name",
+    #         color="station",
     #         title=f"Top 16 Stations in {selected_state} by delay_m/departure",
     #         height=350,
     #     )
@@ -373,9 +373,9 @@ with tab2:
     #     # 4th graph for cities within the selected state
     #     fig3 = px.bar(
     #         state_filtered_data.sort_values(by=column_selection, ascending=False).head(16),
-    #         y="name", 
+    #         y="station", 
     #         x="delay_m/delay_cnt",
-    #         color="name",
+    #         color="station",
     #         title=f"Top 16 Stations in {selected_state} by departures",
     #         height=350,
     #     )
@@ -416,7 +416,7 @@ with tab2:
         lat='lat',
         lon='long',
         z='departure_delay_m',
-        hover_name='name',
+        hover_name="station",
         radius=7,
         range_color=[0, heatmap_df2.departure_delay_m.max()],
         mapbox_style="carto-positron",
