@@ -35,6 +35,3 @@
 	•	Outcome: Insights into the primary causes of delays, enabling targeted interventions.
 
 
-create a machinelarning dataset with features and a size of 100.000 to work with!
-
-
