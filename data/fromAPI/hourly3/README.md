@@ -1,1 +1,0 @@
-attention: datapoints 240711_04 - 240711_06 are simulated because of measurement issues
