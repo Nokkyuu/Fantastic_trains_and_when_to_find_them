@@ -61,7 +61,6 @@ mpu==0.23.1
 namex==0.0.8
 nbformat==5.10.4
 nest-asyncio==1.6.0
-nltk==3.8.1
 numpy==1.26.4
 opt-einsum==3.3.0
 optree==0.11.0
@@ -117,7 +116,6 @@ tqdm==4.66.4
 traitlets==5.14.3
 typing_extensions==4.12.2
 tzdata==2024.1
-urllib3==2.2.1
 vaderSentiment==3.3.2
 wcwidth==0.2.13
 Werkzeug==3.0.3
