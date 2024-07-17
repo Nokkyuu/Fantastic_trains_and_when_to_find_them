@@ -26,5 +26,5 @@ For detailed description of the features available in the datasets please look i
 6) Streamlit: <br> Contains every element for the custom Dashboard
     - [Streamlit Dashboard](streamlit/Streamlit.py)
 
-
+<br> We also published a combined version of the datapoints in hourly3 over on [kaggle](https://www.kaggle.com/datasets/nokkyu/deutsche-bahn-db-delays)
 
