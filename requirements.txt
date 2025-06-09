@@ -111,7 +111,6 @@ termcolor==2.4.0
 threadpoolctl==3.5.0
 toml==0.10.2
 toolz==0.12.1
-tornado==6.4.1
 tqdm==4.66.4
 traitlets==5.14.3
 typing_extensions==4.12.2
@@ -124,3 +123,5 @@ wrapt==1.16.0
 xgboost==2.1.0
 xmltodict==0.13.0
 zipp==3.19.2
+apache-airflow==2.7.3
+python-dotenv
