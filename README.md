@@ -1,5 +1,5 @@
 # Overview
-The analyses presented here were based on real, measured data as part of a two-week final project at a data scientist/data analyst boot camp.<br>
+The analyses presented here were based on real, measured data as part of a two-week project.<br>
 The overarching goal was to identify systemic problems in the infrastructure of the DB rail network.<br>
 Below is a list and description of the scripts, notebooks, methods and data used as well as the links to the result presentation and dashboard.
 
@@ -12,7 +12,6 @@ For detailed description of the features available in the datasets please look i
 1) API:<br> Folder contains scripts for written to handle the different DB APIs
 2) Data:
     - fromAPI: contains .csv files created using the DB API
-    - so_me: data from social media messages regarding DB from Kaggle
     - train_stops: trainstop data from Kaggle
 3) EDA: <br>Contains notebooks regarding the exploratory data analysis part of the different datasets
     - [Comparison regarding the station categories](EDA/01_data_collecting_comparison.ipynb)
